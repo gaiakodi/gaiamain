@@ -1,0 +1,30 @@
+
+[B]7.0.0 (2024.12.20)[/B]
+- Major version upgrade.
+
+[B]6.1.0 (2023.01.18)[/B]
+- Updated addon icon.
+- Removed module library.
+
+[B]6.0.0 (2022.12.12)[/B]
+- Major version upgrade.
+- Removed Python dependency.
+- Updated binaries to latest version.
+
+[B]5.0.0 (2019.06.27)[/B]
+- Major version upgrade.
+
+[B]4.0.0 (2019.02.15)[/B]
+- Major version upgrade.
+
+[B]3.0.0 (2018.07.22)[/B]
+- Major version upgrade.
+
+[B]2.1.0 (2018.04.08)[/B]
+- Added new fanart.
+
+[B]2.0.0 (2018.04.03)[/B]
+- Major version upgrade.
+
+[B]1.0.0 (2018.01.12)[/B]
+- Initial release.

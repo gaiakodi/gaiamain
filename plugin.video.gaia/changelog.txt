@@ -1,4 +1,9 @@
 
+[B]7.0.2 (2024.12.20)[/B]
+- Fixed reuselanguageinvoker.
+- Fixed cache item copy.
+- Fixed loading issues on empty menus.
+
 [B]7.0.1 (2024.12.20)[/B]
 - Fixed Metadata notifications.
 - Fixed setup wizard extensions.

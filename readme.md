@@ -5,3 +5,4 @@ This is Gaia's main repository for Kodi 21 and later running at least Python 3.8
 
 # Support
 For more information and bug reports visit: [https://gaiakodi.com](https://gaiakodi.com)
+

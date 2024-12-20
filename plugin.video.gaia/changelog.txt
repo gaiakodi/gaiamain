@@ -1,0 +1,1461 @@
+
+[B]7.0.0 (2024.12.20)[/B]
+- Way too many changes to list them all here.
+- Added database compression support.
+- Implemented proper Trakt sync activities.
+- Improved Trakt history retrieval.
+- Improved Trakt progress retrieval.
+- Improved Trakt rating retrieval.
+- Fixed Trakt show watched list.
+- Improved Trakt local lookup times.
+- Improved binge process for last episode.
+- Fixed dangling playback window.
+- Improved rating dialog responsiveness.
+- Fixed quick menu loader.
+- Added Trakt movie disc releases.
+- Improved IMDb batch requests.
+- Improved TMDb movie disc releases.
+- Improved TMDb season ratings.
+- Improved TMDb API calls.
+- Retrieve various TMDb release dates.
+- Added audio language to list items.
+- Added TMDb images for shows.
+- Added customizable progress menu.
+- Added progress submenus.
+- Added customizable arrivals menu.
+- Added release submenus.
+- Added advanced menu paging.
+- Added advanced menu sorting.
+- Added advanced menu filtering.
+- Fixed subtitles on paused playback.
+- Added TMDb thumbnails for episodes.
+- Added new OpenSubtitles support.
+- Improved skipping intro chapters.
+- Reduced rating and continue dialog timeouts.
+- Fixed rating and continue dialog actions.
+- Fixed offline provider dataset preparation.
+- Improved stream language detection.
+- Redesigned history database and class.
+- Fixed unique identifier generation.
+- Improved batch title matching.
+- Improved audio codec detection.
+- Improved cache background refreshing.
+- Fixed RealDebrid automatic file selection.
+- Improved stream language detection.
+- Improved file name matching against titles.
+- Fixed fonts for OSMC skin.
+- Fixed release language order.
+- Added visibility and order customization for menus.
+- Added shortcuts for kids menu.
+- Fixed IMDb metadata completion.
+- Fixed QR window if the QR image fails.
+- Removed documentary media type.
+- Removed short film media type.
+- Restructured media class.
+- Reduced threads required for scraping.
+
+[B]6.4.4 (2024.03.11)[/B]
+- Hotfix for new YouTube addon settings.
+
+[B]6.4.3 (2023.08.22)[/B]
+- Re-enabled BitCQ torrent provider.
+- Moved release validation to exclusions.
+
+[B]6.4.2 (2023.08.22)[/B]
+- Fixed color mixing.
+- Added sound effect delay.
+- Fixed binge cancellation.
+- Fixed scraping cancellation.
+- Fixed dialog button focus.
+
+[B]6.4.1 (2023.08.22)[/B]
+- Hot fix for scraping.
+
+[B]6.4.0 (2023.08.22)[/B]
+- Updated skip button.
+- Added skip button customization.
+- Updated concurrency warning dialog.
+- Added binge notification setting.
+- Improved RealDebrid cache lookup for packs.
+- Separated providers and streams databases.
+- Added databases size limiting.
+- Improved scraping speed.
+- Fixed order of provider execution during scraping.
+- Fixed scrape progress indicator.
+- Added internal priority for provider stream processing.
+- Fixed YouTube provider.
+- Improved debrid cache inspection.
+- Added customizable button colors.
+- Fixed the dangling stream window.
+- Fixed subtitle failure notifications.
+- Fixed playback window cancellation.
+- Enabled menu duplicate filtering by default.
+- Added binge continue button.
+- Moved skip intro settings to the activity category.
+- Moved binge settings to the activity category.
+- Improved episode intro skipping.
+- Improved addon launch process.
+- Fixed origin detection.
+- Fixed show pack metadata refreshing.
+- Added binge continue dialog.
+- Change the binge process.
+- Fixed binge concurrency limit.
+- Fixed binge scrape waiting during interaction.
+- Ask wether or not to reload the stream list.
+- Added media links for multiple platforms.
+- Improved release time metadata cache refresh.
+- Updated IMDb episode metadata extraction.
+- Hide skip button on playback resume.
+- Fixed the dangling background binge scrape process.
+- Fixed Trakt season rating.
+- Updated file pack label formatting.
+- Added proper interface sound support.
+- Added playback observer automation.
+- Improved language detection from cut-off file names.
+- Improved Oracle error messages.
+- Changed binge background scrape delay.
+- Improved concurrency management.
+- Improved closing windows from different processes.
+- Improved progress scrobbeling when resuming playback.
+- Updated local library service.
+- Added advanced service manager.
+- Removed old Lightpack code.
+- Improved Bluetooth monitor.
+- Improved outro chapter detection.
+- Possible fix for failed stream connection errors.
+
+[B]6.3.11 (2023.07.20)[/B]
+- Fixed rating window XML.
+
+[B]6.3.10 (2023.07.20)[/B]
+- Fixed stopped playback scrobbeling.
+- Possible fix for Trakt rate limit with scrobbeling.
+- Improved background binge scrape.
+- Increased binge delay for shorter episodes.
+- Improved chapter categorization for shorter episodes.
+- Fixed playback thread during binge overlay.
+- Fixed auto pause and resume during playback.
+- Improved player callbacks.
+- Fixed provider resolve timeouts during binging.
+- Added custom QR button to the rating dialog.
+- Added custom power button to the rating dialog.
+
+[B]6.3.9 (2023.07.17)[/B]
+- Added individual timestamps for movie collections.
+- Added individual timestamps for show packs.
+- Added release time to scraping process.
+- Fixed binge window delay.
+- Improved context menus.
+- Changed series context menu media.
+- Improved movie collection number detection.
+- Improved movie collection number filtering.
+- Improved source time filtering.
+- Fixed ChatGPT model selection.
+
+[B]6.3.8 (2023.07.12)[/B]
+- Increased overlay binge window delay time.
+- Added automatic pause during playback initialization.
+
+[B]6.3.7 (2023.07.11)[/B]
+- Added SceneNZBs German usenet provider.
+- Marked NZBServer as dead.
+- Marked SpotNZB as dead.
+- Fixed NZB file extension.
+- Fixed parameter encoding for menus.
+- Improved episode submenus launched from widgets.
+- Disabled external context menus.
+- Fixed context menus for episode submenus.
+
+[B]6.3.6 (2023.07.10)[/B]
+- More frequent metadata refreshing for recent releases.
+- Improved best provider toggling.
+- Moved Trakt to the Activity context submenu.
+- Fixed playback history count.
+- Improved playback progress for recaps and extras.
+- Improved file container detection.
+- Refresh directory after playback ended.
+- Improved submenu paging with a lot of specials.
+- Improved placement of special episodes in flattened menus.
+- Added TVmaze API rate limit.
+- Close binge overlay window if playback stops.
+- Fixed interleaving episodes without an airing date.
+- Improved special episode interleaving for submenus.
+- Expanded Browse action in the context menu.
+- Added automatic stream history cleaning.
+- Fixed Orion identifier lookup.
+- Fixed cache lookup on reloading streams.
+- Improved episode label formatting with airing date.
+- Improved statistics update in scraping window.
+- Fixed player service label.
+- Improved integrated subtitles selection.
+- Improved file name filtering with aliases.
+- Added customizable binge scrape initiation time.
+
+[B]6.3.5 (2023.07.04)[/B]
+- Added instant stream preference for autoplay.
+- Added manual selection for failed autoplay.
+- Improved episode cast lists.
+- Improved automatic audio stream selection.
+- Improved automatic subtitle stream selection.
+- Improved Oracle chatbot error detection.
+- Fixed ChatGPT playground fallback.
+
+[B]6.3.4 (2023.07.03)[/B]
+- Improved menu category labeling.
+
+[B]6.3.3 (2023.07.03)[/B]
+- Fixed OAuth for all accounts.
+- Improved episode submenu loading process.
+- Changed stream persistency on version change.
+- Possible fix for Kore app connection loss.
+- Fixed special episode thumbnails.
+
+[B]6.3.2 (2023.07.02)[/B]
+- Added custom player integration for TMDbHelper.
+- Added scrolling to Oracle chat window.
+- Changed search interface parameters.
+- Added plugin menu category.
+
+[B]6.3.1 (2023.06.30)[/B]
+- Fixed context menu initialization.
+- Fixed binge scraping time measurement.
+- Fixed Google Bard authentication errors.
+
+[B]6.3.0 (2023.06.30)[/B]
+- Added Oracle chatbot support.
+- Improved launch after addon update.
+- Fixed network caching.
+- Fixed episode posters and thumbnails.
+- Added submenu paging setting.
+- Fixed multiple episode paging.
+- Fixed Trakt authentication refresh.
+- Combined Bluetooth and Lightpack settings tab.
+- Added more episode cast members.
+- Fixed bold formatting of menu labels.
+- Increased thread count for premium providers.
+- Extended video context menu.
+- Added customizable stream save time.
+- Added customizable cache save time.
+- Fixed new external provider detection.
+- Changed restrictive filter dialog.
+- Improved prohibited title filtering.
+- Improved local and native title retrieval.
+- Improved original title processing.
+- Added original language keyword scraping.
+- Reordered original language queries.
+- Improved automatic audio stream selection.
+- Improved automatic subtitle stream selection.
+- Fixed umlaut replacement in titles.
+- Improved provider query priorities.
+- Rewritten provider query generation.
+- Fixed exact search.
+- Changed default sorting settings.
+- Improved special episode categorization.
+- Improved special exclusions from menus.
+- Fixed metadata serialization.
+- Changed show menu interleave settings.
+- Improved stream window reloading.
+- Fixed stream reloading on playback failure.
+- Load providers during addon initialization.
+- Added Dolby Vision notification.
+- Added support for movie sets in mixed menus.
+- Fixed movie set release year.
+- Fixed local playback history tracking.
+- Improved stream release edition extraction.
+- Fixed Golden Globes show menu.
+- Improved IMDb ID handling.
+- Improved language detection from file names.
+- Improved alias title matching.
+- Improved movie home releases.
+- Updated random movie lists.
+- Added additional show rating setting.
+- Added default rating setting.
+- Improved GloTorrents categories.
+- Added TorrentsCSV provider.
+- Updated PopcornTime provider.
+- Added offline provider category.
+- Added ThePirateBay offline provider.
+- Added RarBG offline provider.
+- Added TorrentsCSV offline provider.
+- Added TorrentParadise offline provider.
+- Added more details to provider help sections.
+- Redesign of the activity settings.
+- Added custom time periods for rerating titles.
+- Improved the rating and rerating process.
+- Added early binge dialog toggle.
+- Fixed hanging binge scraping process.
+
+[B]6.2.0 (2023.03.19)[/B]
+- Support for Kodi 20.1.
+- Major fixes for slow Trakt progress lists.
+- Added quick access menus.
+- Improved binge watching.
+- Rounded poster in binge window.
+- Improved Trakt unfinished lists.
+- Improved labels for new seasons and episodes.
+- Improved episode menu automatic selection.
+- Various metadata and list improvements.
+- Improved file name matching for stream.
+- Improved language detection for stream.
+- Fixed time conversion with daylight savings.
+- Fixed history streams notification.
+- Changed all sorting options.
+- Added shuffle sorting options.
+- Added quick access sorting.
+- Moved some navigation settings to menus.
+- Added features for future Gaia skin.
+- Improved initial launch window.
+- Improved menu auto selection.
+- Improved Bluetooth detection.
+- Moved developers settings to the general category.
+- Better plot filtering.
+- Updated episode list images.
+- Fixed multiple episode paging.
+- Updated non-changing rating behavior.
+- Fixed context refocusing in the stream window.
+- Removed sets from docus and shorts.
+- Improved episode menus.
+- Fixed spaces in artwork links.
+- Added changelog announcements.
+- Fixed wizard window animations.
+- Improved TVDb alias title selection.
+- Added more options for playback rating.
+- Added a more advanced resume playback option.
+- Improved episode submenu ordering.
+
+[B]6.1.10 (2023.02.27)[/B]
+- Improved intro skip button.
+- Fixed multiple rating dialogs.
+- Improved stream language detection.
+- Improved announcements.
+- Changed version numbering.
+
+[B]6.1.9 (2023.02.24)[/B]
+- Added rated category menus.
+- Added new TMDb features.
+
+[B]6.1.8 (2023.02.22)[/B]
+- Added chapter support.
+- Added episode intro skipping.
+- Updated binge delay with outro chapter.
+- Possible fix for external module upgrades.
+- Changed release edition color.
+- Improved scraping endpoint.
+- Improved metadata cached.
+- Improved metadata ID lookups.
+
+[B]6.1.7 (2023.02.20)[/B]
+- Fixed Psutil import.
+- Increased IMDb image sizes.
+- Added cropping for IMDb images.
+- Added biography to people menus.
+- Added paging to people menus.
+- Improved people menus.
+- Added people category to awards.
+- Fixed type for IMDb show lists.
+- Updated icon themes.
+- Updated menu descriptions.
+- Added famous people menus.
+- Added people gender menus.
+- Added streaming networks lists.
+- Improved cleanup tool speed.
+- Auto refresh Trakt progress list.
+- Improved auto audio stream selection.
+- Improved rating dialog.
+- Added show rating after each season.
+- Updated provider domains.
+- Fixed font issue for Kodi skins.
+
+[B]6.1.6 (2023.02.13)[/B]
+- Added awards category.
+- Possible fix for reload on playback failure.
+
+[B]6.1.5 (2023.02.11)[/B]
+- External metadata database fix.
+- Further improvements for episode arrivals menu.
+- Fixed sequential playback.
+
+[B]6.1.4 (2023.02.10)[/B]
+- Added advanced movie set features.
+- Fixed unaired episode release date.
+- Fixed playcount in list items.
+- Improved menu sorting.
+- Mark new episodes and seasons as bold.
+- Improved show arrivals menu.
+- Improved mixed episode menus.
+- Possible fix for too many file handles.
+- Improved platform and hardware detection for Apple.
+- Improved performance rating with fallbacks.
+- Fixed local library playback.
+- Fixed local library STRM decoding.
+- Improved local menu paging.
+- Improved episode arrivals menu.
+- Added episode playcount discrepancy filtering.
+
+[B]6.1.3 (2023.02.05)[/B]
+- Support for Kodi 20.
+- Fixed some database errors.
+- Fixed concurrency tasks.
+- Changed default rounding in rating dialog.
+- Fixed Trakt manager media type.
+- Fixed mixed submenus episode count.
+- Fixed duplicate stream filtering.
+- Fixed file sizes for duplicate streams.
+- Improved scraping optimization.
+- Fixed view selection.
+- Changed mixed episode labels.
+- Automatically select next unwatched episode.
+- Fixed provider verification.
+
+[B]6.1.2 (2023.01.22)[/B]
+- Reduced thread usage.
+- Changed concurrency settings.
+- Improved scraping process.
+- Improved concurrency mechanisms.
+- List previous two episodes in mixed submenus.
+- Fixed position of recap and extras menu.
+- Changed metadata addon settings.
+- Changed provider order.
+
+[B]6.1.1 (2023.01.18)[/B]
+- Fixed preprocessed metadata setting.
+- Fixed EasyNews version detection.
+- Added concurrency task limits.
+
+[B]6.1.0 (2023.01.18)[/B]
+- Fixed Trakt show lists.
+- Removed specials form Trakt progress list.
+- Fixed IMDb episode filtering.
+- Fixed TVDb season posters.
+- Changed TVDb year season number.
+- Improved menu loading performance.
+- Added database indexes.
+- Improved additional scraping titles.
+- Changed specials in interleaved show menus.
+- Improved performance of metadata retrieval.
+- Added support for preprocessed metadata addon.
+- Fixed default artwork.
+- Fixed some labels.
+- Fixed EasyNews provider.
+- Added alternative elliptic curve cryptography.
+- Fixed command encoding errors.
+- Improved speed tests.
+- Added time and year ranges for show packs.
+- Added show year range stream validation.
+- Improved stream metadata detection.
+
+[B]6.0.9 (2022.12.24)[/B]
+- Fixed history stream list.
+- Improved download speed test.
+
+[B]6.0.8 (2022.12.24)[/B]
+- Added additional tools to context menu.
+- Added Bluetooth support and reconnection.
+- Updated TMDb search language.
+- Fixed episode metadata retrieval.
+- Changed lowest processor rating.
+- Added support for Aeon Viper skin.
+- Fixed EasyNews provider.
+- Fixed local library provider.
+- Fixed multi stream list.
+- Fixed history menus.
+
+[B]6.0.7 (2022.12.20)[/B]
+- Updated processor detection for Android.
+
+[B]6.0.6 (2022.12.15)[/B]
+- Added TMDb as fallback if Trakt search fails.
+- Fixed encoding detection.
+
+[B]6.0.5 (2022.12.13)[/B]
+- Updated Dutch strings file.
+- Added debug info for Nvidia Shield.
+
+[B]6.0.4 (2022.12.13)[/B]
+- Fixed Android processor detection.
+
+[B]6.0.3 (2022.12.13)[/B]
+- Fixed button focus in windows.
+- Improved Android detection.
+- Fixed adding artwork to a list item.
+
+[B]6.0.2 (2022.12.12)[/B]
+- Fixed module import label.
+
+[B]6.0.1 (2022.12.12)[/B]
+- Added Dutch strings file.
+
+[B]6.0.0 (2022.12.12)[/B]
+- Added support for Kodi 19.
+- Changed to new settings format.
+- New metadata detection system.
+- New provider and scraping system.
+- Added support for show packs.
+- Added support for collection packs.
+- Fixed sorting of special seasons.
+- Fixed initial settings wizard process.
+- Rewrote the request networker.
+- Added new video codecs.
+- Faster menu loading speeds.
+- Fixed episode sorting.
+- Fixed special season and episode listings.
+- Fixed apostrophe title searches.
+- Fixed external links in the settings.
+- Added new YouTube API authentication.
+- Fixed show history from same season pack.
+- Changed season pack file size.
+- Fixed language sorting.
+- Added Jellyfin support.
+- Fixed Emby client.
+- Restructured the provider code.
+- Updated metadata ignore dictionary.
+- Fixed Premiumize hoster cache lookup.
+- Added custom Premiumize download folder.
+- More efficient Premiumize folder scanning.
+- Fixed Premiumize file sizes.
+- Fixed Premiumize provider.
+- Improved RealDebrid provider.
+- Fixed RealDebrid server time.
+- Improved RealDebrid interface cancellations.
+- Improved RealDebrid download process.
+- Fixed RealDebrid file selection.
+- Improved OffCloud provider.
+- Fixed EasyNews account details.
+- Added OpenSubtitles account settings.
+- Fixed subtitle downloads.
+- Added known and unknown subtitle options.
+- Improved subtitle name detection.
+- Improved and faster special windows.
+- Added position memory for streams window.
+- Fixed reloading of streams window.
+- Fixed history menu duration.
+- Fixed spaces in links.
+- Updated size converter.
+- Updated account verification.
+- Update release groups.
+- Update release types.
+- Fixed season pack sizes during binge scraping.
+- Improved episode number detection.
+- Added link resolving to context menu.
+- Added name copying to context menu.
+- Changed the CloudFlare bypasser.
+- Improved CloudFlare handling.
+- Customizable CloudFlare bypasser settings.
+- Fixed Elementum TMDb lookup.
+- Fixed Quasar TMDb lookup.
+- Updated default torrent tracker list.
+- Updated the bencode library.
+- Renewed speed test files.
+- Improved speed test requests.
+- Added ResolveUrl for torrent handling.
+- Added UrlResolver for torrent handling.
+- Added cache timeout refresh functions.
+- Changed default Trakt rewatch setting.
+- Improved settings loading time.
+- Better alternative title retrieval.
+- Improved parallel scraping process.
+- Multiple query scraping process.
+- Fixed movie networks.
+- Fixed Kodi Kore art.
+- Fixed runtime extraction.
+- Added ending time to binge window.
+- Updated global speed test.
+- Added support for BitTorrent v2.
+- Added FenomScrapers.
+- Added OathScrapers.
+- Added CrewScrapers.
+- Added EmbuaryInfo.
+- Added DiamondInfo.
+- Updated to new TVDb API v4.
+- Fixed Premiumize automatic selection.
+- Fixed debrid manual file selection.
+- Improved thread management.
+- Many more bug fixes and new features.
+
+[B]5.6.0 (2019.11.17)[/B]
+- Fixed TVDb zip files.
+
+[B]5.5.9 (2019.10.23)[/B]
+- Added cleaning option for local library.
+- Support for duplicate items in local library.
+- Fixed local library metadata.
+
+[B]5.5.8 (2019.10.06)[/B]
+- Fixed stats sharing enabled.
+- Changed donation menu.
+
+[B]5.5.7 (2019.09.17)[/B]
+- Fixed OffCloud failure loop.
+- Changed OffCloud error detection.
+- Fixed button focus for older Kodi versions.
+
+[B]5.5.6 (2019.09.15)[/B]
+- Fixed RealDebrid authentication reset.
+
+[B]5.5.5 (2019.09.13)[/B]
+- Added scraping skip button.
+- Support ratings from different sites.
+- Added metadata database clearing.
+- Added database compression on clearing.
+- Added hide watched option.
+- Show calendar lists are now refreshed every time.
+- Change 0 days to new.
+- Fixed Premiumize download process.
+- Updated RealDebrid authentication process.
+- Fixed Orion provider.
+- Fixed FindNzb provider.
+- Fixed PopcornTime provider.
+- Fixed TorrentParadise provider.
+- Fixed local library provider.
+
+[B]5.5.4 (2019.09.08)[/B]
+- Changed extra video searches.
+- Changed recaps and extras for progress lists.
+
+[B]5.5.3 (2019.09.08)[/B]
+- Fixed cinematic experience cancellation.
+- Changed trailer searches.
+- Improved YouTube searches.
+- Added recap videos.
+- Added review videos.
+- Added extra videos.
+- Added deleted videos.
+- Added making of videos.
+- Added director of videos.
+- Added interview of videos.
+- Added explanation videos.
+- Added recaps and extras to season structure.
+- Better YggTorrent season pack detection.
+- Reduced binge episode release time.
+- Possible fix for binge watching popups.
+- Changed context menu creation.
+
+[B]5.5.2 (2019.09.04)[/B]
+- Updated uploader name list.
+- Fixed Premiumize interface issues.
+- Fixed Premiumize cloud downloads.
+- Removed MP3 file name filter.
+- Fixed local library provider.
+- Fixed various debrid issues.
+- Fixed color customization.
+
+[B]5.5.1 (2019.09.03)[/B]
+- Added debrid priority.
+- Updated uploader name list.
+
+[B]5.5.0 (2019.09.03)[/B]
+- Added custom context menu.
+- Improved metadata provision.
+- Fixed member usenet providers.
+- Updated uploader name list.
+- Fixed direct link handling.
+- Fixed various debrid and handler bugs.
+
+[B]5.4.2 (2019.08.29)[/B]
+- Fixed Orion threading issue.
+
+[B]5.4.1 (2019.08.29)[/B]
+- Add adapted settings for older versions.
+
+[B]5.4.0 (2019.08.29)[/B]
+- Restructured debrid classes.
+- Improved RealDebrid token refresh.
+- Fixed 1337x provider.
+- Fixed TorrentApi provider.
+- Improved Orion scraping speed.
+- Improved debrid cache lookups.
+
+[B]5.3.2 (2019.08.27)[/B]
+- Fixed duplicate scraping process.
+- Fixed OffCloud cache lookup.
+- Fixed TorrentApi locking.
+- Improved file name filtering.
+
+[B]5.3.1 (2019.08.27)[/B]
+- Changed default settings layout.
+
+[B]5.3.0 (2019.08.27)[/B]
+- Fixed TorrentApi rate limit.
+- Disabled alternative titles by default.
+- Added preemptive termination notification.
+- Fixed multiple scrapes with IDs.
+- Adjusted alternative title scraping.
+- Added support for Emby exact searches.
+- Improved duplicate removal for premium providers.
+- Fixed Premiumize cache unicode encoding.
+- Improved debrid cache lookups.
+- Added decorations for the special window.
+- Fixed various debrid issues.
+
+[B]5.2.7 (2019.08.19)[/B]
+- Fixed Orion integration.
+
+[B]5.2.6 (2019.08.15)[/B]
+- Changed the default binge cancel action.
+- Fixed direct episode scraping.
+
+[B]5.2.5 (2019.08.12)[/B]
+- Improved episode detection in season packs.
+
+[B]5.2.4 (2019.08.10)[/B]
+- Fixed title abbreviation search.
+- Fixed TVMaze lookups.
+- Fixed episode detection with file names.
+
+[B]5.2.3 (2019.08.07)[/B]
+- Fixed NewzNab providers.
+- Fixed metadata encoding issues.
+
+[B]5.2.2 (2019.08.05)[/B]
+- Fixed launch error.
+
+[B]5.2.1 (2019.08.05)[/B]
+- Fixed metadata file name filtering.
+- Fixed BitLord provider.
+
+[B]5.2.0 (2019.08.05)[/B]
+- Dynamic button sizes for binge window.
+- Improved binge watching process.
+- Faster season pack scraping.
+- Fixed foreign title scraping and encoding.
+- Rewritten providers for unicode titles.
+- Added generic interface for external providers.
+- Improved file name detection for external providers.
+- Improved file size detection for external providers.
+- Fixed Torrent9 provider.
+- Fixed Cpabien provider.
+- Fixed BiNzb file name.
+- Fixed FindNzb file size.
+- Removed Incursion provider.
+- Removed Placenta provider.
+- Removed Yoda provider.
+- Removed VideoScraper provider.
+
+[B]5.1.3 (2019.08.01)[/B]
+- Changed season 0 label.
+- Better season pack detection for YggTorrent.
+
+[B]5.1.2 (2019.08.01)[/B]
+- Fixed unicode decoding in titles.
+- Fixed network detection.
+- Added show sorting back to the settings.
+- Fixed exact search.
+
+[B]5.1.1 (2019.07.22)[/B]
+- Fixed hash calculation of torrent containers.
+- Removed old version data clearance.
+- Added Orion uninstall option.
+
+[B]5.1.0 (2019.07.19)[/B]
+- Better cache lookups.
+- Fixed corrupted cache data.
+- Fixed filtering system.
+- Fixed autoplay filter restriction.
+- Removed support menu.
+- Added new binge watching features.
+- Reorganized the playback settings.
+- Possible fix for playback loop.
+- Reorganized the color scheme.
+- Faster menu loading speeds.
+- Fixed metadata cache.
+- Improved Orion scraping speeds.
+- Fixed Premiumize time detection.
+- Added more customizations for the the cinema window.
+- Changed episode count and watched check mark.
+- Updated local library integration.
+- Make Gaia work if Orion is uninstalled or disabled.
+
+[B]5.0.7 (2019.07.08)[/B]
+- Fixed Trakt manual rating.
+- Fixed Trakt watched marking.
+- Updated cfscrape.
+
+[B]5.0.6 (2019.07.07)[/B]
+- Fixed Trakt rating.
+- Updated cfscrape.
+- Fixed Premiumize error variables.
+
+[B]5.0.5 (2019.07.05)[/B]
+- Fixed metadata unicode encoding.
+- Increase IMDb export timeout.
+- Fixed IMDb show watchlist.
+- Fixed language category.
+- Fixed duplicate entries in lists.
+- Fixed audio language filter.
+- Fixed playback from external addons.
+- Added option to set list page limit.
+
+[B]5.0.4 (2019.07.04)[/B]
+- Another fix for clearing the old cache.
+
+[B]5.0.3 (2019.07.02)[/B]
+- Fixed the caching system.
+- Fixed next page navigation.
+
+[B]5.0.2 (2019.07.02)[/B]
+- Possible fix for RealDebrid time API call.
+
+[B]5.0.1 (2019.06.30)[/B]
+- Possible Windows startup fix.
+
+[B]5.0.0 (2019.06.27)[/B]
+- Added cinematic experience.
+- Added binge watching.
+- Integrated Emby servers and providers.
+- Improved alternative title handling.
+- Improved trailer system.
+- Fixed trailer art.
+- Improved autoplay playback loop.
+- Updated Yoda and YouTube dependency.
+- Added ExtendedInfo extension endpoint.
+- Fixed descending order in list sorting.
+- Added Trakt progress and calendar sorting.
+- Rewrote the language system.
+- Better language detection.
+- Updated cfscrape.
+- Removed duplicate Trakt show summary function.
+- Consistent metadata duration.
+- Better player metadata.
+- Cleaned up core code.
+- Added empty history notification.
+- Fixed history list autoplay start.
+- Fixed history addition with autoplay.
+- Changed episode title in history list.
+- Improved RealDebrid season pack selection.
+- Added RSS feeds lookups to the Premiumize provider.
+- Changed BiNzb provider link resolving.
+- Changed Movcr provider link resolving.
+- Changed Prostylex provider link resolving.
+- Fixed debrid download dialog loop.
+- Fixed OffCloud usenet status.
+- Fixed movies and shows that do not have a year.
+- Remove torrent streams for external providers.
+- Better FanArt movie retrieval.
+- Improved alternative title retrieval.
+- Added more advanced preemptive termination.
+- Disabled iDope provider by default.
+- Changed OffCloud cache API link.
+- Updated audio codec detection.
+- Fixed timestamp creation for future dates.
+- Improved cache lookups.
+- Fixed progress dialog type.
+- Fixed OffCloud manual file selection.
+- Updated file exclusions for manual file selection.
+- Fixed and improved usenet providers.
+- More intelligent local caching.
+- Faster menu navigation.
+- Improved play count and watched management.
+- Fixed watched status and episode count overlays.
+- Reposition list on changing watched status.
+- Added a rescrape option to the context menu.
+- Fixed maximum debrid cost.
+- Updated CloudFlare redirects.
+- Fixed torrent file hash calculation.
+- Fixed YggTorrent provider.
+- Fixed sequential playback for local downloads.
+- Fixed meta cache for shows  with the same IMDb ID.
+- Fixed Premiumize API cache inspection.
+- Fixed Premiumize API progress message parsing.
+- Improved special season and episode support.
+- Added more metadata edition types.
+- Fixed URL encoding in context menus.
+- Fixed direct show progress setting.
+- Fixed overlay and playcount.
+- Hide metadata for directory navigation.
+- Fixed IMDb list next navigation.
+- Fixed IMDb rating and duration detection.
+- Added IMDb ratings list.
+- Improved Trakt watched marking.
+- IMDb watchlist and ratings export to Trakt.
+- Possible fix for labels when the scraping window is canceled.
+- Fixed Trakt custom list manager.
+- Added NzbIndex usenet provider.
+- Added DogNzb usenet provider.
+- Added NzbHydra usenet provider.
+- Added NzbWolf usenet provider.
+- Added NzbNoob usenet provider.
+- Added AltHub usenet provider.
+- Added NzbFriends usenet provider.
+- Added FindNzb usenet provider.
+- Added NzbServer usenet provider.
+- Improved stream and cloud handling.
+- Changed YTS domain.
+- Fixed debrid sources for external provideres.
+
+[B]4.1.1 (2019.03.24)[/B]
+- Fixed unicode hashes.
+
+[B]4.1.0 (2019.03.23)[/B]
+- Added stream limit filter.
+- Fixed settings visibility.
+- Fixed provider link selection.
+- Fixed custom location protocol.
+- Fixed loader from directory streams.
+- Fixed Trakt progress sorting.
+- Fixed history streams order.
+- Fixed provider domain list.
+- Automatic Kodi 18 settings adaptation.
+- Updated cfscrape.
+- Changed EzTV domain.
+- Fixed and improved YggTorrent.
+- Added OpenScrapers provider.
+- Added SolidTorrents provider.
+- Added SkyTorrents provider.
+- Added GloTorrents provider.
+- Added WorldWideTorrents provider.
+- Added Pirateiro provider.
+
+[B]4.0.9 (2019.03.06)[/B]
+- Fixed special stream window initialization.
+
+[B]4.0.8 (2019.02.26)[/B]
+- Better season and episode numbering.
+- Support for cached RealDebrid season packs.
+- Updated Yoda external addon.
+
+[B]4.0.7 (2019.02.24)[/B]
+- Added chardet and idna for cfscrape.
+- Deleted old copy of requests.
+- Fixed initializing special window.
+
+[B]4.0.6 (2019.02.24)[/B]
+- Increased scrape window line width.
+- Fixed streams window label bug.
+- Added urllib3 for cfscrape.
+- Fixed YggTorrent account verification.
+- Fixed show searches and retrieval.
+- Fixed exact search.
+- Added debrid cloud download context menu option.
+- Reduced debrid cache inspection chunk size.
+
+[B]4.0.5 (2019.02.16)[/B]
+- Fixed show search.
+- Fixed Orion actions in context menu.
+- Fixed download posters in context menu.
+
+[B]4.0.4 (2019.02.16)[/B]
+- Fixed kids section.
+- Extended language section.
+- Fixed premium links.
+
+[B]4.0.3 (2019.02.16)[/B]
+- Fixed IMDb account.
+
+[B]4.0.2 (2019.02.16)[/B]
+- Fixed marks as watched and unwatched.
+
+[B]4.0.1 (2019.02.16)[/B]
+- Fixed the provider labels in the scrape window.
+- Added notification for system clean.
+- Hide special window on Elementum and Quasar playback.
+- Fixed Gaia API access.
+- Fixed Trakt custom lists.
+- Fixed CloudFlare cookies.
+- Fixed TorrentLeech provider.
+- Better support detection for debrid hosters.
+
+[B]4.0.0 (2019.02.15)[/B]
+- Added special progress and stream windows.
+- Enable and disable individual external providers.
+- Added sequential playback for failed streams.
+- Added support for free Premiumize access.
+- Integrated new Premiumize API.
+- Changed to Premiumize OAuth authentication.
+- Updated Premiumize costs.
+- Fixed metacache problem that caused slow menus.
+- Fixed popularity color.
+- Support to add custom links to the stream list.
+- Disabled cache inspection for premium links.
+- Added setting for stricter filename filtering.
+- Fixed cache inspection timeout.
+- Increased link list limit.
+- Updated uploader name list.
+- Added promotions.
+- Added Kodi 18 spinner.
+- Fixed searching in Kodi 18.
+- Fixed dialog scaling for Kodi 18.
+- Fixed settings for new Kodi.
+- Fixed people search.
+- Added TorrentParadise distributed torrent provider.
+- Added BtBit torrent provider.
+- Added DigBt torrent provider.
+- Added AbNzb usenet provider.
+- Improved TorrentApi searches.
+- Fixed iDope torrent provider.
+- Fixed Zooqle torrent provider.
+- Fixed LimeTorrent torrent provider.
+- Fixed BtScene torrent provider.
+- Fixed Prostylex torrent provider.
+- Fixed YggTorrent torrent provider.
+- Fixed BitLord file size.
+- Fixed NzbFinder usenet provider.
+- Stricter Newzleech usenet provider.
+- Updated Lambda Scrapers.
+- Added Civitas Scrapers.
+- Added Global Scrapers.
+- Added Yoda Scrapers.
+- Improved settings retrieval of external scrapers.
+- Added duplicate and unsupported filter settings.
+- Removed dysfunctional Alluc and PronTv providers.
+- Improved the client request module.
+- Added access status to playback dialog.
+- Added lockup for special paths in the settings.
+- Added file size secondary sorting.
+- Automatically disable providers after verification process.
+- Fixed service navigation menus.
+- Added Remux release type.
+- Separated audio system and codec.
+- Extended the audio codec list.
+- Updated history labels.
+- Added external addon origin.
+- Changed provider attribute.
+- Fixed estimated file size for season packs.
+- Better language detection.
+- Optimized metadata loading.
+- Fixed Orion release type.
+- Added video quality icon support.
+- Better cache handling on duplicate removal.
+- Fixed RealDebrid server time.
+- Added external Requests module.
+- Added local CloudFlare support.
+- Fixed Trakt title translation.
+- Fixed exact search.
+- Complete redesign of core scraping engine.
+- Added file name filters.
+- Support for dynamic filters in the stream list.
+- Added version window splash.
+- Fixed splash screen aspect ratio.
+- Fixed audio filters.
+- Improved settings help system.
+- Added primary and secondary color customization.
+- Cleaned up filter settings.
+- Changed Orion voting.
+- Better audio language detection.
+- Directly scrape episodes from the Trakt progress list.
+- Allow debrid streaming over ResolveUrl and UrlResolver.
+- Fixed a number of preset bugs.
+- Added advanced context menu.
+- Improved automatic library updates.
+- Add individual streams to the local library.
+- Fixed local library bugs.
+- Expanded the information menu.
+- Fixed class variable access.
+- Updated Trakt manager.
+- Fixed IMDb release dates.
+- Improved the movie home release list.
+- Generic stream history implementation.
+- Fixed shortcuts for Kodi 18.
+- Improved launching scraping from library and widgets.
+- Better IMDb watchlist caching.
+- Fixed age and certificate lists.
+- Fixed movies channels.
+- Improved kids release lists.
+- Fixed and improved movie channels.
+- Improved movie collections.
+- Fixed playcount and overlays.
+- Optimized color gradient calculations.
+- Create shortcuts inside the shortcut dialog.
+- Added Orion voting and removing.
+- Fixed local cache downloads and streaming.
+- Hide download dialog for RealDebrid cached files.
+- Improved database locking.
+- Fixed trailer playback.
+- Improved OffCloud cached streams.
+- Fixed RealDebrid supported hosts.
+- Fixed external hoster providers.
+- Fixed Premiumize usage statistics.
+- Premiumize service factors update dynamically.
+- Premiumize service domain alias support.
+- RealDebrid service domain alias support.
+- Better episode selection from season packs.
+- Use manual filters for autoplay.
+- Added support to manually select a file from a pack.
+- Enable external providers by language.
+- Option to force Trakt rating dialog.
+- Code cleanup, bug fixes, and many improvements.
+
+[B]3.2.5 (2018.10.03)[/B]
+- Added Lambda Scrapers.
+- Fixed Elementum and Quasar buffering.
+- Improved metadata detection.
+
+[B]3.2.4 (2018.09.27)[/B]
+- Fixed exact episode searches.
+- Fixed apostrophe bug in metadata.
+- Fixed NzbFinder provider.
+- Fixed NzbGeek provider.
+
+[B]3.2.3 (2018.09.20)[/B]
+- Fixed slow Orion loading times.
+
+[B]3.2.2 (2018.09.16)[/B]
+- Changed repository addon.
+
+[B]3.2.1 (2018.09.12)[/B]
+- Fixed manual download feature.
+
+[B]3.2.0 (2018.09.09)[/B]
+- Way faster menu loading.
+- Possible fix for constant settings reset.
+- Fixed resolving from external addons.
+- Fixed bug that incorrectly filtered out unsupported links.
+- Many fixes for hoster stream playback failures.
+- Better integration of Orion hoster streams.
+- Support for 1440P video quality detection.
+- Fixed provider presets.
+- Various label format improvements.
+- Better CloudFlare circumvention.
+- Updated Torrent9 provider.
+- Updated YggTorrent provider.
+- Added YggTorrent account.
+- Fixed Demonoid provider.
+- Many small bug fixes.
+
+[B]3.1.2 (2018.08.18)[/B]
+- Fixed various Trakt list issues.
+
+[B]3.1.1 (2018.08.13)[/B]
+- Fixed Trakt searches.
+- Faster show super info retrieval.
+- Fixed show and episode posters.
+- Fixed IMDb vote count.
+- Added additional metadata to IMDb lists.
+- Fixed caching bug.
+
+[B]3.1.0 (2018.08.11)[/B]
+- Faster menu loading.
+- Fixed local caching bug.
+- Fixed title cleaning and spacing.
+- Fixed the restrictive filter bug.
+- Improved metadata title detection.
+- Fixed provider preset loading.
+- Fixed Trakt movie watchlist.
+- Default sorting for Trakt lists.
+- Fixed various other Trakt bugs.
+- Fixed season lists.
+- Fixed Orion stream age.
+- Updated provider preset lists.
+- Updated KickAssTorrents torrent provider.
+- Added BitLord torrent provider.
+- Added TorrentGalaxy torrent provider.
+- Added TorrentQuest torrent provider.
+- Added Prostylex torrent provider.
+- Added Movcr torrent provider.
+- Added Am5k8 torrent provider.
+- Added SevenTorrents torrent provider.
+- Added AvantaBg Russian torrent provider.
+- Many small bug fixes.
+
+[B]3.0.4 (2018.08.05)[/B]
+- Fixed Orion hoster links integration.
+- Faster Orion initialization.
+- Possible fix for setting resets.
+
+[B]3.0.3 (2018.08.03)[/B]
+- Fixed another debrid cache issue.
+- Individual exceptions for Incursion and Placenta scrapers.
+- Fixed duration label exception.
+
+[B]3.0.2 (2018.07.26)[/B]
+- Fixed debrid cache issue.
+
+[B]3.0.1 (2018.07.24)[/B]
+- Fixed Orion integration.
+- Fixed LimeTorrents provider.
+
+[B]3.0.0 (2018.07.22)[/B]
+- Integrated Orion.
+- Fixed major bug in Incursion and Placenta scrapers.
+- Fixed enabling and disabling Placenta scraper.
+- Better incorporation of Incursion and Placenta resolvers.
+- Added ResolveUrl to list of hoster domains.
+- Filters for excluding video and audio codecs.
+- More customizations for stream labels.
+- Change some label colors.
+- Fixed a few minor errors with searching.
+- Fixed Elementum and Quasar metadata.
+- Fixed show arrivals section.
+- Fixed KickAssTorrents provider.
+- Fixed MagnetDl provider.
+- Fixed TorrentFunk provider.
+- Improved torrent seed counter.
+- Fixed automatic backup import.
+- Changed general drug movie list.
+- Expanded filter settings.
+- Improved the metadata features.
+- Fixed a provider verification bug.
+- Extended uploader list.
+- Added new video codecs.
+- Added new audio codecs.
+- Fixed language order.
+- Fixed VPN detection.
+- Fixed autoplay cancel loop.
+
+[B]2.3.0 (2018.05.17)[/B]
+- Fixed movie and episode directory listing.
+- Added Trakt premiered, added, and watched date sorting.
+- Fixed torrent link detection in metadata.
+- Fixed restrictive filter dialog loader.
+- Better operating system detection.
+- Updated the scraping process.
+- Removed default screener and cam quality filtering.
+- Major flaw with automatic backups fixed.
+- Automatic backup restore with no more corrupt settings popups.
+- Fixed OffCloud proxy setting.
+
+[B]2.2.0 (2018.05.05)[/B]
+- Major bug fixes for Incursion and Placenta scrapers.
+- Fixed Torrentz2 setting.
+- Added show year to metadata.
+
+[B]2.1.5 (2018.04.26)[/B]
+- Fix for some Incursion and Placenta scrapers.
+- Disabled Torrentz2 provider by default.
+
+[B]2.1.4 (2018.04.26)[/B]
+- Few minor scraping settings fixes.
+
+[B]2.1.3 (2018.04.21)[/B]
+- Added IlCorSaRoNeRo Italian torrent provider.
+- Added TNTVillage Italian torrent provider.
+- Added Premiumize premium membership notification.
+- Added Premiumize authentication failure notification.
+- Added Reaper settings import warning.
+- Fixed clearing providers in tools.
+- Fixed player title bug.
+- Updated settings wizard.
+
+[B]2.1.2 (2018.04.13)[/B]
+- Added streaming handler defaults in settings wizard.
+
+[B]2.1.1 (2018.04.12)[/B]
+- Updated YggTorrent provider.
+- Updated Reaper settings.
+- Simplified Reaper settings selection.
+- Added automatic playback to the setup wizard.
+
+[B]2.1.0 (2018.04.08)[/B]
+- Added PronTv hoster provider.
+- Removed old 6Box usenet provider.
+- Removed old NZBClub usenet provider.
+- Fixed scraping loader.
+- Fixed provider name label.
+- Added new fanart.
+- Added new skin support.
+- Fixed local library movie addition.
+- Fixed season pack size for local library.
+- Fixed episode selection from season packs.
+
+[B]2.0.5 (2018.04.05)[/B]
+- Faster menu navigation.
+- Added notification on streams found.
+- Added confirmation for restrictive filters.
+- Updated TMDb settings help label.
+- Added random movie and show selection.
+- Moved drug movie list.
+- Fixed Alluc provider setting.
+- Force restart on shortcut creation and removal.
+
+[B]2.0.4 (2018.04.03)[/B]
+- Fixed Alluc setup wizard.
+
+[B]2.0.3 (2018.04.03)[/B]
+- Fixed Trakt setup wizard using old account.
+- Fixed setup wizard account cancellation.
+
+[B]2.0.2 (2018.04.03)[/B]
+- Fixed the new initial setup wizard again.
+
+[B]2.0.1 (2018.04.03)[/B]
+- Fixed the new initial setup wizard.
+
+[B]2.0.0 (2018.04.03)[/B]
+- Revamped the providers and accounts.
+- Removed old hoster providers.
+- Removed old usenet providers.
+- Updated T411 torrent provider.
+- Added NewzLeech usenet provider.
+- Added BiNZB usenet provider.
+- Added Torrentz2 torrent provider.
+- Added 1337X torrent provider.
+- Added MagnetDl torrent provider.
+- Added TorrentDownload torrent provider.
+- Added Magnet4You torrent provider.
+- Added BtDb torrent provider.
+- Added BtScene torrent provider.
+- Added TorLock torrent provider.
+- Added YourBitTorrent torrent provider.
+- Added TorrentFunk torrent provider.
+- Added TorrentTm torrent provider.
+- Update NoobsAndNerds Scrapers.
+- Added support for Universal Scrapers.
+- Added support for Incursion Scrapers.
+- Added support for Placenta Scrapers.
+- Fixed a few artwork bugs.
+- Added better support for TMDb artwork.
+- Redesigned the service menu with categories.
+- Updated verification process.
+- Fixed Premiumize error bug.
+- Added special characters for foreign titles.
+- Fixed automatic backup imports.
+- Removed tertiary repository dependency.
+- Updated and expanded settings wizard.
+- Added drugs movie lists.
+
+[B]1.5.1 (2018.03.21)[/B]
+- Fixed bug that caused long provider initialization.
+- Fixed NZBFinder usenet provider.
+- Fixed NZBGeek usenet provider.
+- Fixed settings backup import.
+- Added Reddit Reaper settings imports.
+- Fixed Premiumize error notification.
+
+[B]1.5.0 (2018.03.06)[/B]
+- Update for the new repository.
+
+[B]1.5.0 (2018.03.06)[/B]
+- Added Elementum local torrent addon support.
+- Added notification on Elementum and Quasar download start.
+- Fixed player timeout exception.
+- Fixed YIFY torrent provider.
+- Removed old RarBg from the verification process.
+
+[B]1.3.1 (2018.02.17)[/B]
+- Fixed episode lists with an alternative season numbering.
+
+[B]1.3.0 (2018.02.13)[/B]
+- Added support for ResolveUrl.
+- Added Premiumize cache inspection for hoster links.
+- The support FAQ can now be accessed directly from the addon.
+- Autoplay now tries to pick a cached service before falling back to downloading.
+- Added status colors for custom provider locations.
+- Support for custom progress in order to mark streams as watched.
+- Added Trakt category for unfinished movies and episode.
+- Finer tuned title filtering in order to avoid irrelevant streams.
+- Fixed playback of local files.
+- Fixed titles without episodes for season packs.
+- Fixed overwrite preemptive termination for early timeouts.
+
+[B]1.2.3 (2018.02.04)[/B]
+- Fixed episode lists without titles.
+
+[B]1.2.2 (2018.02.03)[/B]
+- Faster changes of custom provider locations.
+- Fixed show lists for networks.
+
+[B]1.2.1 (2018.01.28)[/B]
+- Important: Reauthenticate your Alluc account.
+- Added Alluc API limit notification.
+- Support for multiple Alluc accounts.
+- Fixed OffCloud hoster cloud download dialog.
+- Force disable subtitles.
+
+[B]1.2.0 (2018.01.26)[/B]
+- Fixed autoplay termination and filters.
+
+[B]1.1.9 (2018.01.25)[/B]
+- Added page limit for scraping.
+- Better detection of short titles.
+
+[B]1.1.8 (2018.01.24)[/B]
+- Fixed IMDb lists.
+- Fixed the preemptive termination overwrite.
+
+[B]1.1.7 (2018.01.21)[/B]
+- Fixed automatic settings backup.
+
+[B]1.1.6 (2018.01.21)[/B]
+- Added option to force autoplay on preemptive termination.
+- Added user agent to download requests.
+
+[B]1.1.5 (2018.01.18)[/B]
+- RealDebrid download dialog fixed.
+- Fixed the local downloader icon issue.
+- Added version number to the log output.
+- Premiumze ZIP download fixed.
+- Fixed the NoobsAndNerds provider selection.
+- Metalliq integration fixed.
+- Added French YggTorrent provider.
+
+[B]1.1.4 (2018.01.17)[/B]
+- Improved RealDebrid cache inspection.
+
+[B]1.1.3 (2018.01.16)[/B]
+- Minor fix with the automatic settings backup option.
+- Fixed various filter settings for debrid services.
+
+[B]1.1.2 (2018.01.16)[/B]
+- Fixed custom color selection setting.
+- Fixed the voucher hand outs.
+
+[B]1.1.1 (2018.01.16)[/B]
+- Fixed RealDebrid cache inspection.
+
+[B]1.1.0 (2018.01.16)[/B]
+- Massive speed improvements across the addon.
+- Fixed RealDebrid account authentication.
+- Support for native RealDebrid cache inspection.
+- Fixed NoobsAndNerds custom location.
+- Fixed Premiumize cloud folder detection.
+- Fixed Premiumize provider file detection.
+- Fixed Premiumize non-cached download process.
+- Fixed Android detection.
+- Disabled additional languages in setup wizard.
+- Changed default provider settings.
+- Fixed theme for splash dialogs.
+
+[B]1.0.0 (2018.01.12)[/B]
+- Added very slow RealDebrid cache inspection.
+- Updated Premiumize to work with the new API.
+- Added new debrid service OffCloud.
+- Added universal torrent providers: Zooqle, ExtraTorrent, PopcornTime, and Demonoid.
+- Added French torrent providers: LienTorrent, Torrent9, and Cpabien.
+- Added Russian torrent providers: Rutor, TorrenTino, and NnmClub.
+- Added NoobsAndNerds external providers.
+- Added YouTube provider, addon, service, and settings.
+- Added and updated external providers.
+- Added support for sorting favourite lists.
+- Fixed the adding of a show range to the local library.
+- Updated Lightpack settings and launch procedure.
+- Fixed the database error on first launch after installation.
+- Fixed the exact search functionality.
+- Fixed the Trakt show watchlist bug.
+- Fixed Premiumize stream cost and usage label.
+- Fixed external automatic playback bug.
+- Fixed JSON encoding tool.
+- Fixed TorrentProject provider.
+- Fixed the add to library option.
+- Fixed movie and show categories.
+- Disabled Premiumize service retrieval without an account.
+- Return cached links immediately on inspection finish.
+- Fixed Premiumize download list browsing.
+- Improved internal subtitle support.
+- Added push announcements.
+- Updated speed tests.
+- Updated Premiumize services.
+- Fixed multi language support.
+- Improved metadata detection.
+- Automatic settings backup.
+- Improved backup functionality.
+- Fixed NzbStart usenet provider.
+- Support for sorting by seeds and age.
+- Faster debrid cache inspection.
+- Fixed movie and show logo retrieval.
+- Fixed download integration on first run.
+- Added color customization support.
+- Trakt account requirement for movie channels.
+- Fixed people category and search.
+- Improved setting setup wizard.
+- Faster stream details and cop link dialog loading.
+- Added playback timeout and retry options.
+- Automatically switch on Lightpack on launch.
+- Improved scraping and download progress dialogs.
+- Advanced lottery functionality.
+- Major updates to the debrid, download, and connection process.
+- Fixed background progress dialog crashes.
+- Reduced Alluc default limit.
+- Update API communication.
+- Fixed seeds label for torrent providers.
+- Improved the premium providers.
+- Fixed subtitle selection bugs.
+- Added option to disable the background.

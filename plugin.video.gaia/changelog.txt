@@ -1,4 +1,9 @@
 
+[B]7.0.1 (2024.12.20)[/B]
+- Fixed Metadata notifications.
+- Fixed setup wizard extensions.
+- Fixed scraping optimization.
+
 [B]7.0.0 (2024.12.20)[/B]
 - Way too many changes to list them all here.
 - Added database compression support.

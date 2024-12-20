@@ -1,0 +1,12 @@
+
+[B]7.0.0 (2024.12.20)[/B]
+- Major version upgrade.
+- Added new metadata database.
+- Added database compression.
+
+[B]6.1.4 (2023.02.10)[/B]
+- Updated metadata.
+- Added metadata for sets.
+
+[B]6.1.0 (2023.01.18)[/B]
+- Initial release.

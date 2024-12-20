@@ -1,0 +1,153 @@
+
+[B]7.0.0 (2024.12.20)[/B]
+- Major version upgrade.
+- Updated various icons.
+- Changed icon in streams window.
+- Added dummy compression data.
+
+[B]6.4.0 (2023.08.22)[/B]
+- Added transparent button.
+- Updated button textures.
+- Added small circle texture.
+- Added RottenTomatoes icon.
+- Added Metacritic icon.
+- Added new sound effects.
+- Removed Lightpack icons.
+- Fixed CAM1080 icon in streams window.
+
+[B]6.3.11 (2023.07.20)[/B]
+- Updated rating window XML.
+
+[B]6.3.2 (2023.07.02)[/B]
+- Added TMDbHelper icons.
+
+[B]6.3.0 (2023.06.30)[/B]
+- Added Oracle icons.
+- Added Oracle interface.
+
+[B]6.2.0 (2023.03.19)[/B]
+- Added binge window XML.
+- Renamed skin directories.
+- Added next page thumbnail.
+- Added quick icons.
+
+[B]6.1.9 (2023.02.24)[/B]
+- Added more service icons.
+
+[B]6.1.7 (2023.02.20)[/B]
+- Added more awards icons.
+- Added famous icons.
+- Added gender icons.
+- Added network icons.
+
+[B]6.1.6 (2023.02.13)[/B]
+- Added new awards icons.
+
+[B]6.1.4 (2023.02.10)[/B]
+- Added new icons.
+
+[B]6.1.0 (2023.01.18)[/B]
+- Updated addon icon.
+- Updated wizard XML.
+- Removed module library.
+
+[B]6.0.0 (2022.12.12)[/B]
+- Major version upgrade.
+- Removed Python dependency.
+- Added new icons.
+- Changed splash logo to version 6.
+- Updated video quality icons.
+- Updated stream window highlights and scrollbar.
+
+[B]5.5.8 (2019.10.06)[/B]
+- Changed donation icons.
+
+[B]5.3.2 (2019.08.27)[/B]
+- Fixed addon icons in special window.
+
+[B]5.3.0 (2019.08.27)[/B]
+- Added addon icons.
+- Improved special window layout.
+
+[B]5.2.0 (2019.08.05)[/B]
+- Reduced window label width.
+
+[B]5.1.1 (2019.07.22)[/B]
+- Added Orion uninstall icon.
+
+[B]5.0.0 (2019.06.27)[/B]
+- Changed clear play icon.
+- Added OpenScrapers extension icon.
+- Added ExtendedInfo icons.
+- Added Emby icons.
+- Added IMDb icons.
+- Added cinema resources.
+- Added version 5 logo.
+- Updated Reaper settings.
+
+[B]4.1.0 (2019.03.23)[/B]
+- Added OpenScrapers icons.
+
+[B]4.0.6 (2019.02.24)[/B]
+- Updated Reaper settings.
+
+[B]4.0.0 (2019.02.15)[/B]
+- Added promotions icon.
+- Added GlobalScrapers icons.
+- Added Yoda icons.
+- Changed splash structure.
+- Added new interface images.
+- Added flag icons.
+
+[B]3.2.5 (2018.10.03)[/B]
+- Added LambdaScrapers icons.
+
+[B]3.2.0 (2018.09.09)[/B]
+- Removed unused icons.
+
+[B]3.0.0 (2018.07.22)[/B]
+- Major version upgrade.
+- Added Orion icons.
+- Updated Reaper settings.
+
+[B]2.1.4 (2018.04.26)[/B]
+- Updated Reaper settings.
+- Improved quality for a few icons.
+
+[B]2.1.2 (2018.04.13)[/B]
+- Updated Reaper settings.
+
+[B]2.1.1 (2018.04.12)[/B]
+- Updated Reaper settings.
+
+[B]2.1.0 (2018.04.08)[/B]
+- Added new fanart.
+- Added new Gaia skin.
+- Moved other Gaia skins to skins addon.
+
+[B]2.0.5 (2018.04.05)[/B]
+- Added random icon.
+
+[B]2.0.0 (2018.04.03)[/B]
+- Major version upgrade.
+- Change NoobsAndNerds icons.
+- Added UniversalScapers icons.
+- Added Incursion icons.
+- Added Placenta icons.
+- Added services icons.
+
+[B]1.5.1 (2018.03.21)[/B]
+- Added Reddit Reaper settings.
+
+[B]1.4.0 (2018.03.03)[/B]
+- New Elementum icons.
+
+[B]1.3.0 (2018.02.13)[/B]
+- New ResolveUrl and help icons.
+
+[B]1.0.0 (2018.01.12)[/B]
+- Initial release.
+- New icons.
+- New resources.
+- New skins.
+- Fireworks video.

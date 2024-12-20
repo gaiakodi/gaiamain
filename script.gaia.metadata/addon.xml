@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.gaia.metadata" version="7.0.0" name="Gaia Metadata" provider-name="Gaia">
+	<requires>
+	</requires>
+	<extension point="xbmc.python.module" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Gaia Metadata</summary>
+		<description lang="en">Preprocessed movie and show metadata for faster menu loading.</description>
+		<disclaimer lang="en">Gaia and its developers are not affiliated with Kodi or any of the services used in the addon. Gaia and its developers do not create, host, or distribute any of the content displayed in the addon. Gaia simply searches publicly available sources for content. Gaia is, and always will be, free and open-source. None of its code or resources may be sold or redistributed for commercial purposes.</disclaimer>
+
+		<platform>all</platform>
+		<license>GPL 3.0</license>
+
+		<website>https://gaiakodi.com</website>
+		<forum>https://gaiakodi.com/support</forum>
+
+		<assets>
+			<icon>meta/icon.png</icon>
+			<clearlogo>meta/clearlogo.png</clearlogo>
+			<fanart>meta/fanart.jpg</fanart>
+			<banner>meta/banner.jpg</banner>
+		</assets>
+	</extension>
+</addon>

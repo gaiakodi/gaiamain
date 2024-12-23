@@ -1,4 +1,7 @@
 
+[B]7.0.3 (2024.12.23)[/B]
+- Fixed ResolveURL authentication.
+
 [B]7.0.2 (2024.12.20)[/B]
 - Fixed reuselanguageinvoker.
 - Fixed cache item copy.

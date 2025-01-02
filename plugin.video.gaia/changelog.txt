@@ -1,4 +1,10 @@
 
+[B]7.0.4 (2025.01.02)[/B]
+- Various fixes for Windows.
+- Replaced IFF function for older SQLite versions.
+- Fixed negative timestamp formatting.
+- Fixed Trakt lists for skin widgets.
+
 [B]7.0.3 (2024.12.23)[/B]
 - Fixed ResolveURL authentication.
 

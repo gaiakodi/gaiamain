@@ -1,6 +1,138 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
+<addon id="plugin.video.gaia" version="7.0.4" name="Gaia" provider-name="Gaia">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0" />
+
+		<import addon="script.gaia.resources" version="7.0.0" />
+		<import addon="script.gaia.externals" version="7.0.0" />
+
+		<import addon="script.gaia.metadata" version="7.0.0" optional="true" />
+		<import addon="script.gaia.binaries" version="7.0.0" optional="true" />
+		<import addon="script.gaia.icons" version="7.0.0" optional="true" />
+		<import addon="script.gaia.skins" version="7.0.0" optional="true" />
+
+		<import addon="repository.gaia.core" version="7.0.0" optional="true" />
+		<import addon="repository.gaia.full" version="7.0.0" optional="true" />
+
+		<import addon="script.module.orion" version="5.0.0" />
+
+		<!--
+		PIL is used to generate QR codes.
+		This import seems to be only needed for Android, but not for Linux or Windows.
+		PIL is compiled and shipped with Kodi and does not have to be installed manually from a repo.
+		-->
+		<import addon="script.module.pil" version="1.0.0" />
+
+		<!--
+		NB: Kodi crashes on some devices (eg: Android) if the addon info dialog is opened on Gaia from the Gaia repository.
+		One other systems (eg: Windows and Linux) this does not happen.
+		It seems that the crash is caused by importing certain addons (eg: script.trakt and service.vpn.manager), but the reason is not known.
+		For now only add dependecies that are actually imported through Python.
+		Any addons that are used through xbmc.addon(...) or in any other way that does not directly include the addon's code, is not imported.
+		Updated: It seems this has been fixed in Kodi 19.4. If this problem reoccurs in the future, comment out every addon below, except:
+			script.module.resolveurl
+			script.module.urlresolver
+			script.module.addon.signals
+		-->
+
+		<import addon="script.module.resolveurl" version="5.0.06" optional="true" />
+		<import addon="script.module.urlresolver" version="3.0.29" optional="true" />
+
+		<import addon="plugin.video.elementum" version="0.0.43" optional="true" />
+		<import addon="plugin.video.quasar" version="0.9.78" optional="true" />
+
+		<import addon="script.extendedinfo" version="5.6.0" optional="true" />
+		<import addon="script.diamondinfo" version="3.19" optional="true" />
+		<import addon="script.embuary.info" version="2.0.8" optional="true" />
+
+		<import addon="plugin.video.youtube" version="6.0.0" optional="true" />
+		<import addon="service.vpn.manager" version="6.0.0" optional="true" />
+		<import addon="resource.images.studios.white" version="0.0.28" optional="true" />
+
+		<import addon="service.upnext" version="1.0.0" optional="true" />
+		<import addon="script.module.addon.signals" version="0.0.1" optional="true" />
+
+		<!--
+		NB: Do NOT import any of the unstructured external providers.
+		Otherwise Kodi/Python will use the native/installed addon code, instead of the edited Gaia code.
+		The actual import of these addons happen in providers/core/external.py -> instancesInclude().
+		<import addon="script.module.fenomscrapers" version="1.4.1" optional="true" />
+		<import addon="script.module.oathscrapers" version="1.00.07" optional="true" />
+		<import addon="script.module.thecrew" version="1.1.5b" optional="true" />
+		<import addon="script.module.openscrapers" version="0.0.2.012" optional="true" /> < !-- Not Python 3 compatible -- >
+		<import addon="script.module.lambdascrapers" version="2.0.0" optional="true" /> < !-- Not Python 3 compatible -- >
+		<import addon="script.module.civitasscrapers" version="0.0.5.8" optional="true" /> < !-- Not Python 3 compatible -- >
+		<import addon="script.module.globalscrapers" version="4.1.1" optional="true" /> < !-- Not Python 3 compatible -- >
+		-->
+		<import addon="script.module.universalscrapers" version="1.0.0" optional="true" /> <!-- Not Python 3 compatible -->
+		<import addon="script.module.nanscrapers" version="0.5.45" optional="true" /> <!-- Not Python 3 compatible -->
+
+	</requires>
+
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+
+	<!-- Do we still need this? It seems that Gaia lists in external widgets now all have the default context menu entry. When enabling this code, there are 2 Gaia context menus added to widget items. -->
+	<!--
+	<extension point="kodi.context.item">
+		<menu id="kodi.core.main">
+			<item library="context.py">
+				<label>$INFO[Window(Home).Property(GaiaContextLabel)]</label>
+				<visible>
+					[!String.StartsWith(Container.PluginName,plugin.video.gaia) + Integer.IsEqual(Window(Home).Property(GaiaContextEnabled),1)] +
+					[String.IsEqual(ListItem.DBTYPE,movie) | String.IsEqual(ListItem.DBTYPE,tvshow) | String.IsEqual(ListItem.DBTYPE,season) | String.IsEqual(ListItem.DBTYPE,episode)] +
+					[
+						[!String.StartsWith(Container.FolderPath,playlistvideo://) + !String.IsEmpty(Container.PluginName) + Integer.IsEqual(Window(Home).Property(GaiaContextAddon),1)] |
+						[!String.StartsWith(Container.FolderPath,playlistvideo://) + String.IsEmpty(Container.PluginName) + Integer.IsEqual(Window(Home).Property(GaiaContextWidget),1)] |
+						[String.StartsWith(Container.FolderPath,playlistvideo://) + Integer.IsEqual(Window(Home).Property(GaiaContextPlaylist),1)]
+					]
+				</visible>
+			</item>
+		</menu>
+	</extension>
+	-->
+
+	<extension point="xbmc.service" library="service.py" start="startup" /> <!-- Must be placed after xbmc.python.pluginsource, otherwise widgets do not pick up the addon. -->
+
+	<extension point="xbmc.addon.metadata">
+		<!-- Changeable through the settings dialog. -->
+		<!-- NB: The XML value here is replaced dynamically by Gaia. -->
+		<!-- NB: If the default value is changed here in the future, read comments in settings.xml (general.performance.interpreter). -->
+		<reuselanguageinvoker>true</reuselanguageinvoker>
+
+		<summary lang="en">Stream Movies and Shows</summary>
+		<description lang="en">Stream movies and shows from a variety of sources, such as torrents, usenet, and file hosters. Utilize a diversity of debrid services and sync your playback and history with Trakt.</description>
+		<disclaimer lang="en">Gaia and its developers are not affiliated with Kodi or any of the services used in the addon. Gaia and its developers do not create, host, or distribute any of the content displayed in the addon. Gaia simply searches publicly available sources for content. Gaia is, and always will be, free and open-source. None of its code or resources may be sold or redistributed for commercial purposes.</disclaimer>
+
+		<platform>all</platform>
+		<license>GPL 3.0</license>
+
+		<website>https://gaiakodi.com</website>
+		<forum>https://gaiakodi.com/support</forum>
+
+		<assets>
+			<icon>meta/icon.png</icon>
+			<clearlogo>meta/clearlogo.png</clearlogo>
+			<fanart>meta/fanart.jpg</fanart>
+			<banner>meta/banner.jpg</banner>
+
+			<screenshot>meta/screenshot01.jpg</screenshot>
+			<screenshot>meta/screenshot02.jpg</screenshot>
+			<screenshot>meta/screenshot03.jpg</screenshot>
+			<screenshot>meta/screenshot04.jpg</screenshot>
+			<screenshot>meta/screenshot05.jpg</screenshot>
+			<screenshot>meta/screenshot06.jpg</screenshot>
+			<screenshot>meta/screenshot07.jpg</screenshot>
+			<screenshot>meta/screenshot08.jpg</screenshot>
+			<screenshot>meta/screenshot09.jpg</screenshot>
+			<screenshot>meta/screenshot10.jpg</screenshot>
+		</assets>
+	</extension>
+</addon>
+
 <addon id="plugin.video.gaia" version="7.0.3" name="Gaia" provider-name="Gaia">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />

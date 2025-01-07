@@ -1,4 +1,12 @@
 
+[B]7.0.6 (2025.01.07)[/B]
+- Fixed episode labels in Arrivals menus.
+- Fixed season and show rating dialogs.
+- Added background service delay setting.
+- Removed notification for canceled searches.
+- Fixed search dialog popup on container refresh.
+- Added production info to player details.
+
 [B]7.0.5 (2025.01.04)[/B]
 - Faster title matching during scraping.
 - Fewer aliases used during title matching.

@@ -1,4 +1,10 @@
 
+[B]7.0.7 (2025.01.10)[/B]
+- Increased metadata refresh interval.
+- Adjusted playback percentages in Progress menus.
+- Fixed show menus for skin widgets.
+- Fixed absolute menu paging.
+
 [B]7.0.6 (2025.01.07)[/B]
 - Fixed episode labels in Arrivals menus.
 - Fixed season and show rating dialogs.

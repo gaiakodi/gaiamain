@@ -1,4 +1,11 @@
 
+[B]7.0.8 (2025.01.13)[/B]
+- Fixed some pack numbering issues.
+- Fixed startup service delay.
+- Improved arrivals sorting.
+- Decreased progress ending percentages.
+- Updated progress menu activity indicators.
+
 [B]7.0.7 (2025.01.10)[/B]
 - Increased metadata refresh interval.
 - Adjusted playback percentages in Progress menus.

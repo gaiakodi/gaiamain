@@ -1,4 +1,13 @@
 
+[B]7.0.9 (2025.01.16)[/B]
+- Improved year validation during scraping.
+- Improved title validation during scraping.
+- Improved show number extraction.
+- Improved anime file name validation.
+- Added new anime number extraction rules.
+- Improved various scraping validation rules.
+- Changed Knaben provider main domain.
+
 [B]7.0.8 (2025.01.13)[/B]
 - Fixed some pack numbering issues.
 - Fixed startup service delay.

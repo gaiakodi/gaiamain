@@ -1,4 +1,8 @@
 
+[B]7.0.10 (2025.01.20)[/B]
+- Improved Arrivals smart-loading.
+- Added settings for menu icons.
+
 [B]7.0.9 (2025.01.16)[/B]
 - Improved year validation during scraping.
 - Improved title validation during scraping.

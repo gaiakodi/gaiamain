@@ -1,4 +1,15 @@
 
+[B]7.1.0 (2025.01.28)[/B]
+- Fixed custom playback process parameters.
+- Fixed internal menu caching.
+- Fixed show pack retrieval.
+- Added TorBox support for ResolveURL.
+- Added TorBox support for Orion.
+- Added EasyDebrid support for Orion.
+- Improved debrid resolving through Orion.
+- Improved Orion authentication process.
+- Added Orion debrid account settings.
+
 [B]7.0.10 (2025.01.20)[/B]
 - Improved Arrivals smart-loading.
 - Added settings for menu icons.

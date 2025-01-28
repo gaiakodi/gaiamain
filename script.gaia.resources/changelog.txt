@@ -1,4 +1,8 @@
 
+[B]7.1.0 (2025.01.28)[/B]
+- Added TorBox icons.
+- Added EasyDebrid icons.
+
 [B]7.0.0 (2024.12.20)[/B]
 - Major version upgrade.
 - Updated various icons.

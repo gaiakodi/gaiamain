@@ -1,4 +1,24 @@
 
+[B]7.1.1 (2025.02.02)[/B]
+- Improved progress icons and labels.
+- Improved playback progress tracking.
+- Improved activity interactions for shows.
+- Improved Arrivals menu for season releases.
+- Improved sorting for subsequent seasons.
+- Improved rewatch tracking.
+- Fixed Quick menu duplicates.
+- Changed label formatting setting.
+- Changed default label attribute.
+- Added Arctic Reloaded as known skin.
+- Added Arctic Resurrection as known skin.
+- Added label progress format setting.
+- Added label rating format setting.
+- Added separate details settings for menus.
+- Added a new label settings category.
+- Rearrange menus, labels, and interface settings.
+- Added future episode label color setting.
+- Faster switch from rating dialog to binge dialog.
+
 [B]7.1.0 (2025.01.28)[/B]
 - Fixed custom playback process parameters.
 - Fixed internal menu caching.

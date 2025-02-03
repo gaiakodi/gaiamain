@@ -1,4 +1,7 @@
 
+[B]7.1.3 (2025.02.03)[/B]
+- Fixed Arrivals menu for subsequent seasons.
+
 [B]7.1.2 (2025.02.03)[/B]
 - Fixed Arrivals menu for subsequent seasons.
 - Fixed some studio icons.

@@ -1,4 +1,11 @@
 
+[B]7.1.2 (2025.02.03)[/B]
+- Fixed Arrivals menu for subsequent seasons.
+- Fixed some studio icons.
+- Improved settings cleanup process.
+- Added concurrency execution delay.
+- Updated binge rating process.
+
 [B]7.1.1 (2025.02.02)[/B]
 - Improved progress icons and labels.
 - Improved playback progress tracking.

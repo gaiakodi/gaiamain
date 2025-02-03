@@ -1,4 +1,7 @@
 
+[B]7.1.2 (2025.02.03)[/B]
+- Disabled Urllib3 warning.
+
 [B]7.0.0 (2024.12.20)[/B]
 - Major version upgrade.
 - Updated various modules.

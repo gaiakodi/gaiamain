@@ -1,4 +1,7 @@
 
+[B]7.1.4 (2025.03.12)[/B]
+- Updated user agents for Cloudflare.
+
 [B]7.1.3 (2025.02.03)[/B]
 - Fixed Arrivals menu for subsequent seasons.
 

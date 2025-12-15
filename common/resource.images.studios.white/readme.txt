@@ -1,6 +1,8 @@
 Version 0.0.30 is the official version in the Kodi repo, but it has not been updated in a long time and therefore has many missing icons.
 Version 0.0.33~alpha is a custom created version for Gaia which has been updated more recently and therefore has a lot more icons.
 
+Update (2025-12-01): Version 0.0.33~alpha1 is the custom version created from 0.0.33 from the XBMC-Addons Github repo. The version in the official Kodi Omega repo is stil 0.0.30.
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 There are white and colored icon addons.
@@ -25,7 +27,7 @@ Both of them have not been updated on the official Kodi repo for years and have 
 			Someone created a new unofficial version, although it has not been released as a new version number.
 				https://gitlab.com/Lynxstrike/resource-images-studios-coloured/-/blob/main/Decompiled.rar?ref_type=heads
 			The precompiled textures work with unicode/accents, so it was probably compiled by TexturePacker (see below).
-			However, the newer updates of his textures use all lower-case letters and for some reason have has removed many of the icons from v0.0.23.
+			However, the newer updates of his textures use all lower-case letters and for some reason have removed many of the icons from v0.0.23.
 				Eg: "RTÉ" has been removed and only "RTÉ One" and "RTÉ Two" remain.
 			The old/official version should therefore be combined with his new textures to get all the icons.
 

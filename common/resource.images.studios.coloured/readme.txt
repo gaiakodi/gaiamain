@@ -1,6 +1,8 @@
 Version 0.0.23 is the official version in the Kodi repo, but it has not been updated in a long time and therefore has many missing icons.
 Version 0.0.24~alpha is a custom created version for Gaia which has been updated more recently and therefore has a lot more icons.
 
+Update (2025-12-01): Version 0.0.24~alpha1 is the custom version created from 0.0.23 from the XBMC-Addons Github repo, plus Lynxstrike icons, plus the new 0.0.33 white icons. The version in the official Kodi Omega repo is stil 0.0.23.
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 There are white and colored icon addons.

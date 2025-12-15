@@ -52,7 +52,7 @@
 
 <!-- ELEMENTUM -->
 <!-- Dependency: Gaia (optional) -->
-<addon id="plugin.video.elementum" name="Elementum" version="0.1.106+android_arm" provider-name="elgatito">
+<addon id="plugin.video.elementum" name="Elementum" version="0.1.112+android_arm" provider-name="elgatito">
 	<requires>
 		<import addon="xbmc.addon" version="16.0.0" />
 		<import addon="repository.elementumorg" optional="true" />
@@ -82,7 +82,7 @@
 		<disclaimer lang="es">El autor no posee ni aloja ningún contenido que se encuentre a través de este complemento. El autor no está unido ni relacionado de ninguna manera con Kodi, Team Kodi, o XBMC Foundation.</disclaimer>
 		<disclaimer lang="sv">Skaparen äger inte eller är värd av något innehåll som finns i detta tillägg. Författaren är inte ansluten till eller på något annat sätt en del av Kodi, Team Kodi eller XBMC Foundation.</disclaimer>
 		<language>en el es de fi fr he hr it nl pt ro sk sv</language>
-		<platform>android-armv7 android-aarch64</platform>
+		<platform>android android-armv7 android-aarch64</platform>
 		<website>http://elementum.surge.sh/</website>
 		<source>https://github.com/elgatito/plugin.video.elementum</source>
 		<forum></forum>
@@ -96,7 +96,7 @@
 		</assets>
 	</extension>
 </addon>
-<addon id="plugin.video.elementum" name="Elementum" version="0.1.106+android" provider-name="elgatito">
+<addon id="plugin.video.elementum" name="Elementum" version="0.1.112+android" provider-name="elgatito">
 	<requires>
 		<import addon="xbmc.addon" version="16.0.0" />
 		<import addon="repository.elementumorg" optional="true" />
@@ -140,7 +140,7 @@
 		</assets>
 	</extension>
 </addon>
-<addon id="plugin.video.elementum" name="Elementum" version="0.1.106+linux_arm" provider-name="elgatito">
+<addon id="plugin.video.elementum" name="Elementum" version="0.1.112+linux_arm" provider-name="elgatito">
 	<requires>
 		<import addon="xbmc.addon" version="16.0.0" />
 		<import addon="repository.elementumorg" optional="true" />
@@ -184,7 +184,7 @@
 		</assets>
 	</extension>
 </addon>
-<addon id="plugin.video.elementum" name="Elementum" version="0.1.106+linux" provider-name="elgatito">
+<addon id="plugin.video.elementum" name="Elementum" version="0.1.112+linux" provider-name="elgatito">
 	<requires>
 		<import addon="xbmc.addon" version="16.0.0" />
 		<import addon="repository.elementumorg" optional="true" />
@@ -228,7 +228,7 @@
 		</assets>
 	</extension>
 </addon>
-<addon id="plugin.video.elementum" name="Elementum" version="0.1.106+windows" provider-name="elgatito">
+<addon id="plugin.video.elementum" name="Elementum" version="0.1.112+windows" provider-name="elgatito">
 	<requires>
 		<import addon="xbmc.addon" version="16.0.0" />
 		<import addon="repository.elementumorg" optional="true" />
@@ -258,7 +258,7 @@
 		<disclaimer lang="es">El autor no posee ni aloja ningún contenido que se encuentre a través de este complemento. El autor no está unido ni relacionado de ninguna manera con Kodi, Team Kodi, o XBMC Foundation.</disclaimer>
 		<disclaimer lang="sv">Skaparen äger inte eller är värd av något innehåll som finns i detta tillägg. Författaren är inte ansluten till eller på något annat sätt en del av Kodi, Team Kodi eller XBMC Foundation.</disclaimer>
 		<language>en el es de fi fr he hr it nl pt ro sk sv</language>
-		<platform>windx windows windows-i686 windows-x86_64 windowsstore</platform>
+		<platform>windows windx windows-i686 windows-x86_64 windowsstore</platform>
 		<website>http://elementum.surge.sh/</website>
 		<source>https://github.com/elgatito/plugin.video.elementum</source>
 		<forum></forum>
@@ -272,7 +272,7 @@
 		</assets>
 	</extension>
 </addon>
-<addon id="plugin.video.elementum" name="Elementum" version="0.1.106+mac" provider-name="elgatito">
+<addon id="plugin.video.elementum" name="Elementum" version="0.1.112+mac" provider-name="elgatito">
 	<requires>
 		<import addon="xbmc.addon" version="16.0.0" />
 		<import addon="repository.elementumorg" optional="true" />
@@ -318,7 +318,7 @@
 </addon>
 <!--
 Do not include the repository. Even if the repo is not installed, Kodi will pull in repo's URL and complain about unsecure HTTP.
-<addon id="repository.elementumorg" name="ElementumOrg repository" provider-name="elementumorg" version="0.0.2">
+<addon id="repository.elementumorg" name="ElementumOrg repository" provider-name="elementumorg" version="0.0.7">
 	<requires>
 	</requires>
 	<extension point="xbmc.addon.repository">
@@ -337,6 +337,12 @@ Do not include the repository. Even if the repo is not installed, Kodi will pull
 		<summary lang="en">GitHub virtual Add-on repository</summary>
 		<description lang="en">Customizable repository which acts as a proxy for defined GitHub users' add-ons updates.</description>
 		<news>
+- Allow running in standalone mode
+- Migrate to GitHub API
+- Add support for "tag_pattern" field
+- Add support for private repositories by supplying a "token"
+- Try to automatically determine zip ref from version
+- Multiple minor improvements
 		</news>
 		<assets>
 			<icon>meta/icon.png</icon>
@@ -345,7 +351,7 @@ Do not include the repository. Even if the repo is not installed, Kodi will pull
 	</extension>
 </addon>
 -->
-<addon id="script.elementum.burst" name="Elementum [COLOR FFFF6B00]Burst[/COLOR]" version="0.0.90" provider-name="elgatito">
+<addon id="script.elementum.burst" name="Elementum [COLOR FFFF6B00]Burst[/COLOR]" version="0.0.97" provider-name="elgatito">
 	<requires>
 		<import addon="xbmc.addon" version="16.0.0" />
 		<import addon="plugin.video.elementum" optional="true"/>
@@ -383,7 +389,7 @@ Do not include the repository. Even if the repo is not installed, Kodi will pull
 		</assets>
 	</extension>
 </addon>
-<addon id="context.elementum" name="Elementum Context Helper" version="0.0.13" provider-name="elgatito">
+<addon id="context.elementum" name="Elementum Context Helper" version="0.0.15" provider-name="elgatito">
 	<requires>
 		<import addon="xbmc.addon" version="16.0.0" />
 		<import addon="script.module.requests"/>
@@ -647,7 +653,7 @@ Do not include the repository. Even if the repo is not installed, Kodi will pull
 
 <!-- YOUTUBE -->
 <!-- Dependency: Gaia (optional), ResolveUrl, UrlResolver, DiamondInfo -->
-<addon id="plugin.video.youtube" name="YouTube" version="7.1.1.1" provider-name="anxdpanic, bromix, MoojMidge">
+<addon id="plugin.video.youtube" name="YouTube" version="7.3.0.1" provider-name="anxdpanic, bromix, MoojMidge">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.requests" version="2.27.1"/>
@@ -675,6 +681,7 @@ Do not include the repository. Even if the repo is not installed, Kodi will pull
 		<source>https://github.com/anxdpanic/plugin.video.youtube</source>
 		<reuselanguageinvoker>true</reuselanguageinvoker>
 		<summary lang="bg_BG">Добавка за YouTube</summary>
+		<summary lang="bs_BA">Dodatak za YouTube</summary>
 		<summary lang="cs_CZ">Plugin pro YouTube</summary>
 		<summary lang="da_DK">Plugin til YouTube</summary>
 		<summary lang="de_DE">Plugin für YouTube</summary>
@@ -683,8 +690,10 @@ Do not include the repository. Even if the repo is not installed, Kodi will pull
 		<summary lang="eo">Aldonaĵo por YouTube</summary>
 		<summary lang="es_ES">Complemento para YouTube</summary>
 		<summary lang="es_MX">Complemento para YouTube</summary>
+		<summary lang="et_EE">YouTube lisamoodul</summary>
 		<summary lang="fi_FI">YouTube-lisäosa</summary>
 		<summary lang="fr_FR">Plugin pour YouTube</summary>
+		<summary lang="ga">Breiseán do YouTube</summary>
 		<summary lang="he_IL">תוסף עבור YouTube</summary>
 		<summary lang="hr_HR">Dodatak za YouTube</summary>
 		<summary lang="hu_HU">YouTube kiegészítő</summary>
@@ -698,13 +707,14 @@ Do not include the repository. Even if the repo is not installed, Kodi will pull
 		<summary lang="ro_RO">Modul pentru YouTube</summary>
 		<summary lang="ru_RU">Видеодополнение YouTube</summary>
 		<summary lang="sk_SK">Doplnok pre YouTube</summary>
-		<summary lang="sv_SE">Plugin för YouTube</summary>
+		<summary lang="sv_SE">Insticksmodul för YouTube</summary>
 		<summary lang="tr_TR">YouTube için eklenti</summary>
 		<summary lang="uk_UA">Додаток для YouTube</summary>
 		<summary lang="vi_VN">Plugin dành cho YouTube</summary>
 		<summary lang="zh_CN">油管插件</summary>
 		<summary lang="zh_TW">YouTube附加元件</summary>
 		<description lang="bg_BG">YouTube е един от най-големите уеб сайтове за споделяне на видео в целия свят.</description>
+		<description lang="bs_BA">YouTube je jedna od najvećih svjetskih web stranica za dijeljenje videozapisa.</description>
 		<description lang="cs_CZ">YouTube je jedna z největších webových stránek světa sdílející video.</description>
 		<description lang="da_DK">YouTube er et af verdens største videodelingswebsteder.</description>
 		<description lang="de_DE">YouTube ist eines der größten Video-Sharing-Websites der Welt.</description>
@@ -727,17 +737,19 @@ Do not include the repository. Even if the repo is not installed, Kodi will pull
 		<description lang="ro_RO">YouTube este unul dintre cele mai mari saituri de distribuire de videoclipuri din lume.</description>
 		<description lang="ru_RU">YouTube - популярнейший видеохостинговый сайт, предоставляющий пользователям услуги хранения, доставки и показа видео.</description>
 		<description lang="sk_SK">YouTube je jednou z najväčších stránok na zdieľanie videa na svete.</description>
-		<description lang="sv_SE">YouTube är en av de största videodelningssajterna i världen.</description>
+		<description lang="sv_SE">YouTube är en av världens största webbplatser för videodelning.</description>
 		<description lang="tr_TR">YouTube, dünya üzerindeki en büyük video paylaşma platformlarından birisidir.</description>
 		<description lang="uk_UA">YouTube є одним з найбільших відеохостингів в світі.</description>
 		<description lang="vi_VN">YouTube là một trong những trang web chia sẻ video lớn nhất trên thế giới.</description>
 		<description lang="zh_CN">油管是世界上最大的视频分享网站之一。</description>
 		<description lang="zh_TW">Youtube 是全世界最大的影片分享網站。</description>
+		<disclaimer lang="bs_BA">Ovaj dodatak nije odobren od strane Googlea</disclaimer>
 		<disclaimer lang="cs_CZ">Tento plugin není schválen společností Google</disclaimer>
 		<disclaimer lang="da_DK">Dette plugin er ikke godkendt af Google</disclaimer>
 		<disclaimer lang="de_DE">Dieses Plugin ist nicht von Google befürwortet</disclaimer>
 		<disclaimer lang="el_GR">Η παρούσα μικροεφαρμογή δεν έχει υϊοθετηθεί από την Google</disclaimer>
 		<disclaimer lang="en_GB">This plugin is not endorsed by Google</disclaimer>
+		<disclaimer lang="eo">Tiu aldonaĵo ne estas aprobita de Google</disclaimer>
 		<disclaimer lang="es_ES">Este add-on no está respaldado por Google</disclaimer>
 		<disclaimer lang="es_MX">Este complemento no está respaldado por Google</disclaimer>
 		<disclaimer lang="fi_FI">Google ei tue tätä lisäosaa</disclaimer>
@@ -752,13 +764,18 @@ Do not include the repository. Even if the repo is not installed, Kodi will pull
 		<disclaimer lang="ro_RO">Acest modul nu este susținut de Google</disclaimer>
 		<disclaimer lang="ru_RU">Плагин не поддерживается Google</disclaimer>
 		<disclaimer lang="sk_SK">Tento doplnok nie je schválený spoločnosťou Google</disclaimer>
-		<disclaimer lang="sv_SE">Detta plugin är inte godkänt av Google</disclaimer>
+		<disclaimer lang="sv_SE">Denna insticksmodul är inte godkänd av Google</disclaimer>
 		<disclaimer lang="tr_TR">Bu eklenti Google tarafından üretilmemiştir</disclaimer>
-		<disclaimer lang="uk_UA">Цей плагін не має відношення до компанії Google</disclaimer>
+		<disclaimer lang="uk_UA">Цей додаток не має відношення до компанії Google</disclaimer>
 		<disclaimer lang="vi_VN">Plugin này không được xác nhận bởi Google</disclaimer>
 		<disclaimer lang="zh_CN">此插件未被谷歌认可</disclaimer>
 		<disclaimer lang="zh_TW">此附加元件未由Google支持</disclaimer>
-  </extension>
+	<news>## v7.3.0.1
+### Fixed
+- Workaround crash caused by non-thread safe behaviour of sqlite connection when used as context manager
+
+### Changed
+- Delay gc collection rather than disabling</news></extension>
 </addon>
 
 <!-- VPNMANAGER -->
@@ -792,7 +809,7 @@ Do not include the repository. Even if the repo is not installed, Kodi will pull
 
 <!-- RESOLVEURL -->
 <!-- Dependency: Gaia (optional) -->
-<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.154" provider-name="gujal">
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.188" provider-name="gujal">
 	<requires>
 		<!-- <import addon="xbmc.python" version="3.0.0" /> -->
 		<import addon="script.module.six" />
@@ -889,13 +906,13 @@ Do not include the repository. Even if the repo is not installed, Kodi will pull
 
 <!-- DIAMONDINFO -->
 <!-- Dependency: Gaia (optional) -->
-<addon id="script.diamondinfo" name="  [B][COLOR white]Diamond Info_MOD[/COLOR][/B]" version="8.67" provider-name="fryhenryj">
+<addon id="script.diamondinfo" name="  [B][COLOR white]Diamond Info_MOD[/COLOR][/B]" version="9.73" provider-name="fryhenryj">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="plugin.video.youtube" version="6.8.11+matrix.1"/>
 		<import addon="script.module.requests" version="2.25.1+matrix.1"/>
 		<import addon="script.module.infotagger" version="0.0.1" optional="true" />
-		<import addon="script.skin.helper.service" version="1.1.3"/>
+		<import addon="script.skin.helper.service" version="1.1.3" optional="true" />
 		<import addon="resource.images.studios.white" version="0.0.28"/>
 		<import addon="script.module.pil" version="0.6.0"/>
 		<import addon="script.module.musicbrainz" version="0.6.0"/>
@@ -906,6 +923,8 @@ Do not include the repository. Even if the repo is not installed, Kodi will pull
 		<import addon="script.module.beautifulsoup4" version="4.6.3+matrix.1"/>
 		<import addon="plugin.video.themoviedb.helper" version="4.4.6"/>
 		<import addon="plugin.program.autocompletion" version="2.0.2" optional="true" />
+		<import addon="skin.estuary_fix" version="4.1.2a" optional="true" />
+		<import addon="script.module.qrcode" version="6.1.0" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="plugin.py">
 		<provides>video</provides>
@@ -921,14 +940,9 @@ Do not include the repository. Even if the repo is not installed, Kodi will pull
 				<label>TMDBHelper Trakt Menu</label>
 				<visible>String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,season) | String.IsEqual(ListItem.dbtype,episode)</visible>
 			</item>
-			<item library="context3.py">
-				<label>Diamond Info - In Trakt Lists</label>
-				<visible>String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,tvshow) </visible>
-			</item>
 		</menu>
 	</extension>
 	<extension point="xbmc.service" library="service.py"  start="login"/>
-	<extension point="xbmc.python.library" library="service2.py"/>
 	<extension point="xbmc.addon.metadata">
 		<reuselanguageinvoker>true</reuselanguageinvoker>
 		<platform>all</platform>
@@ -948,6 +962,62 @@ Do not include the repository. Even if the repo is not installed, Kodi will pull
 
 <!-- EXTENDEDINFO -->
 <!-- Dependency: Gaia (optional) -->
+<addon id="script.extendedinfo" name="  [B][COLOR white]Extended Info-Diamond_MOD[/COLOR][/B]" version="9.73" provider-name="fryhenryj">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+		<import addon="plugin.video.youtube" version="6.8.11+matrix.1"/>
+		<import addon="script.module.requests" version="2.25.1+matrix.1"/>
+		<import addon="script.module.infotagger" version="0.0.1" optional="true" />
+		<import addon="script.skin.helper.service" version="1.1.3" optional="true" />
+		<import addon="resource.images.studios.white" version="0.0.28"/>
+		<import addon="script.module.pil" version="0.6.0"/>
+		<import addon="script.module.musicbrainz" version="0.6.0"/>
+		<import addon="script.module.arrow" version="1.0.3.1"/>
+		<import addon="script.module.dateutil" version="2.8.1"/>
+		<import addon="script.module.typing_extensions" version="3.7.4.3"/>
+		<import addon="script.module.simplecache" version="1.0.0"/>
+		<import addon="script.module.beautifulsoup4" version="4.6.3+matrix.1"/>
+		<import addon="plugin.video.themoviedb.helper" version="4.4.6"/>
+		<import addon="plugin.program.autocompletion" version="2.0.2" optional="true" />
+		<import addon="skin.estuary_fix" version="4.1.2a" optional="true" />
+		<import addon="script.module.qrcode" version="6.1.0" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="plugin.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.python.script" library="script.py"/>
+	<extension point="kodi.context.item">
+		<menu id="kodi.core.main">
+			<item library="context.py">
+				<label>Diamond Info</label>
+				<visible>String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,season) | String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,actor) | String.IsEqual(ListItem.dbtype,director)</visible>
+			</item>
+			<item library="context2.py">
+				<label>TMDBHelper Trakt Menu</label>
+				<visible>String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,season) | String.IsEqual(ListItem.dbtype,episode)</visible>
+			</item>
+		</menu>
+	</extension>
+	<extension point="xbmc.service" library="service.py"  start="login"/>
+	<extension point="xbmc.addon.metadata">
+		<reuselanguageinvoker>true</reuselanguageinvoker>
+		<platform>all</platform>
+		<summary>Diamond Info (EIM)</summary>
+		<description>This script offers various possibilities to display online content inside skins as well as a complete MovieDB browser including info dialogs for various media types. Needs skin implementation for lot of functions and Diamond Player for library functions.</description>
+		<assets>
+			<icon>meta/icon.png</icon>
+			<fanart>meta/fanart.jpg</fanart>
+			<screenshot>meta/screenshot1.jpg</screenshot>
+			<screenshot>meta/screenshot2.jpg</screenshot>
+			<screenshot>meta/screenshot3.jpg</screenshot>
+		</assets>
+		<news>6.2.3 - Fix TV Show trailers
+		6.2.2 - Added ability to search using the tvdb_id for "extendedepisodeinfo"
+		6.2.1 - Fix context menu now available for widgets pointing to Diamond Info's video addon items
+		6.2.0 - Added context menu force "player select" to the play button, available via "c" and long press "enter" button
+		</news>
+	</extension>
+</addon>
 <addon id="script.extendedinfo" name="ExtendedInfo Script" version="6.0.9" provider-name="scott967">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
@@ -1202,7 +1272,7 @@ Många befintliga tillägg integreras redan med den här utanför lådan-tjänst
 
 <!-- IDNA -->
 <!-- Dependency: Requests -->
-<addon id="script.module.idna" name="idna" version="3.4.0" provider-name="Kim Davies">
+<addon id="script.module.idna" name="idna" version="3.10.0" provider-name="Kim Davies">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
@@ -1222,7 +1292,7 @@ Många befintliga tillägg integreras redan med den här utanför lådan-tjänst
 
 <!-- URLLIB3 -->
 <!-- Dependency: Requests -->
-<addon id="script.module.urllib3" name="urllib3" version="2.1.0" provider-name="urllib3">
+<addon id="script.module.urllib3" name="urllib3" version="2.2.3" provider-name="urllib3">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 	</requires>
@@ -1279,7 +1349,7 @@ Många befintliga tillägg integreras redan med den här utanför lådan-tjänst
 
 <!-- INPUTSTREAMHELPER -->
 <!-- Dependency: YouTube -->
-<addon id="script.module.inputstreamhelper" name="InputStream Helper" version="0.7.0" provider-name="emilsvennesson, dagwieers, mediaminister, horstle">
+<addon id="script.module.inputstreamhelper" name="InputStream Helper" version="0.8.4" provider-name="emilsvennesson, dagwieers, mediaminister, horstle">
 	<requires>
 		<!--py3 compliant-->
 		<import addon="xbmc.python" version="3.0.0"/>
@@ -1297,6 +1367,7 @@ Många befintliga tillägg integreras redan med den här utanför lådan-tjänst
 		<summary lang="es_ES">Kodi InputStream y reproducción DRM echa fácil</summary>
 		<summary lang="fr_FR">La lecture Kodi InputStream et DRM en toute simplicité</summary>
 		<summary lang="hr_HR">Kodi InputStream olakšava reprodukciju DRM zaštićenog sadržaja</summary>
+		<summary lang="sv_SE">Kodi InputStream och DRM-uppspelning på ett enkelt sätt</summary>
 		<description lang="de_DE">Dieses einfache Kodi-Modul macht das Leben für Addon Entwickler einfacher, die auf InputStream basierte Addons und DRM Wiedergabe angewiesen sind.</description>
 		<description lang="el_GR">Μία απλή μονάδα για το Kodi η οποία διευκολύνει την ζωή των προγραμματιστών οι οποίοι εξαρτώνται από τα πρόσθετσ InputStream και αναπαραγωγή τύπου DRM.</description>
 		<description lang="en_GB">A simple Kodi module that makes life easier for add-on developers relying on InputStream based add-ons and DRM playback.</description>
@@ -1304,6 +1375,9 @@ Många befintliga tillägg integreras redan med den här utanför lådan-tjänst
 		<description lang="fr_FR">Un simple module Kodi qui simplifie la vie des développeurs de modules complémentaires en s’appuyant sur des modules complémentaires basés sur InputStream et sur la lecture de DRM.</description>
 		<description lang="hr_HR">Jednostavan Kodi modul koji olakšava razvijanje dodataka koji se temelje na InputStream dodatku i reprodukciji DRM zaštićenog sadržaja.</description>
 		<description lang="ru_RU">Простой модуль для Kodi, который облегчает жизнь разработчикам дополнений, с использованием InputStream дополнений и воспроизведения DRM контента.</description>
+		<description lang="sv_SE">En enkel Kodi-modul som underlättar livet för tilläggsutvecklare som förlitar sig på InputStream-baserade tillägg och DRM-uppspelning.</description>
+		<news>
+		</news>
 		<platform>all</platform>
 		<license>MIT</license>
 		<website>https://github.com/emilsvennesson/script.module.inputstreamhelper/wiki</website>
@@ -1587,6 +1661,27 @@ You can clone the project and host it in your own server.
 		<license>BSD-3-Clause</license>
 		<platform>all</platform>
 		<source>https://github.com/mnooner256/pyqrcode</source>
+		<assets>
+			<icon>meta/icon.png</icon>
+		</assets>
+	</extension>
+</addon>
+
+<!-- QRCODE -->
+<!-- Dependency: TheMovieDbHelper, ExtendedInfo (new fork) -->
+<addon id="script.module.qrcode" name="qrcode" version="6.1.0+matrix.3" provider-name="Lincoln Loop">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+		<import addon="script.module.six" version="1.14.0+matrix.1"/>
+		<import addon="script.module.pil" version="1.1.7"/> <!-- Python Image Library required to create QR images -->
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">QR Code image generator</summary>
+		<description lang="en_GB">This module uses image libraries, Python Imaging Library (PIL) by default, to generate QR Codes.</description>
+		<license>BSD-3-Clause</license>
+		<website>https://pypi.org/project/qrcode/</website>
+		<source>https://github.com/lincolnloop/python-qrcode</source>
 		<assets>
 			<icon>meta/icon.png</icon>
 		</assets>
@@ -1960,15 +2055,15 @@ v1.20.0
 
 <!-- THEMOVIEDBHELPER -->
 <!-- Dependency: Gaia (optional), DiamondInfo -->
-<addon id="plugin.video.themoviedb.helper" version="5.2.25" name="TheMovieDb Helper" provider-name="jurialmunkey">
+<addon id="plugin.video.themoviedb.helper" version="6.12.1" name="TMDb Helper" provider-name="jurialmunkey">
   <requires>
 	  <import addon="xbmc.python" version="3.0.1"/>
 	  <import addon="script.module.requests" version="2.9.1"/>
 	  <import addon="script.module.pil" version="1.1.7"/>
 	  <import addon="script.module.addon.signals" version="0.0.6" />
-	  <import addon="script.module.jurialmunkey" version="0.1.14" />
+	  <import addon="script.module.jurialmunkey" version="0.2.29" />
 	  <import addon="script.module.infotagger" version="0.0.5" />
-	  <import addon="script.module.beautifulsoup4" version="4.9.3" />
+	  <import addon="script.module.qrcode" version="6.1.0" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="resources/plugin.py">
 	  <provides>video</provides>
@@ -1978,15 +2073,24 @@ v1.20.0
   <extension point="xbmc.python.module" library="resources/modules"/>
   <extension point="xbmc.addon.metadata">
 	  <reuselanguageinvoker>false</reuselanguageinvoker>
-	  <summary lang="en_GB">TheMovieDb Helper</summary>
-	  <description lang="en_GB">TheMovieDb Helper provides details about movies, tvshows and actors from TMDb. Users can access a variety of lists from TMDb TVDb MDbList and Trakt.</description>
-	  <disclaimer lang="en_GB">Data provided by TheMovieDb TVDb MDbList OMDb FanartTV and Trakt. Some of the information is provided by TheTVDB.com. Please consider supporting them. https://thetvdb.com/subscribe</disclaimer>
+	  <summary lang="de_DE">TMDb Helfer</summary>
+	  <summary lang="en_GB">TMDb Helper</summary>
+	  <summary lang="zh_CN">TMDb 助手</summary>
+	  <description lang="de_DE">TMDb Helper liefert Details über Filme, Fernsehsendungen und Schauspieler aus TMDb. Benutzer können auf eine Vielzahl von Listen aus TMDb TVDb MDbList und Trakt zugreifen.</description>
+	  <description lang="en_GB">TMDb Helper provides details about movies, tvshows and actors from TMDb. Users can access a variety of lists from TMDb TVDb MDbList and Trakt.</description>
+	  <description lang="sv_SE">TMDb Helper tillhandahåller information om filmer, tv-serier och skådespelare från TMDb. Användare kan få tillgång till en mängd olika listor från TMDb, TVDb, MDbList och Trakt.</description>
+	  <description lang="zh_CN">TMDb 助手从 TMDb（影视数据库） 获取电影、电视剧及演员的详细信息。用户可访问来自 TMDb、TVDb、MDbList 和 Trakt 的各类影视列表。</description>
+	  <disclaimer lang="de_DE">Daten bereitgestellt von TMDb TVDb MDbList OMDb FanartTV und Trakt. Einige der Informationen werden von TheTVDB.com bereitgestellt. Bitte erwäge sie zu unterstützen. https://thetvdb.com/subscribe</disclaimer>
+	  <disclaimer lang="en_GB">Data provided by TMDb TVDb MDbList OMDb FanartTV and Trakt. Some of the information is provided by TheTVDB.com. Please consider supporting them. https://thetvdb.com/subscribe</disclaimer>
+	  <disclaimer lang="sv_SE">Data tillhandahållen av TMDb TVDb MDbList OMDb FanartTV och Trakt. En del av informationen tillhandahålls av TheTVDB.com. Stöd dem gärna. https://thetvdb.com/subscribe</disclaimer>
+	  <disclaimer lang="zh_CN">数据由 TMDb、TVDb、MDbList、OMDb、FanartTV 和 Trakt 提供。部分信息由 TheTVDB.com 提供，建议您支持他们。订阅链接：https://thetvdb.com/subscribe</disclaimer>
 	  <license>GPL-3.0-or-later</license>
 	  <website>https://github.com/jurialmunkey/plugin.video.themoviedb.helper</website>
 	  <forum>https://forum.kodi.tv/showthread.php?tid=345847</forum>
 	  <assets>
 		  <icon>meta/icon.png</icon>
 		  <fanart>meta/fanart.jpg</fanart>
+		  <clearlogo>meta/clearlogo.png</clearlogo>
 		  <screenshot>meta/screenshot-01.jpg</screenshot>
 		  <screenshot>meta/screenshot-02.jpg</screenshot>
 	  </assets>
@@ -1995,10 +2099,11 @@ v1.20.0
 
 <!-- JURIALMUNKEYCOMMON -->
 <!-- Dependency: TheMovieDbHelper -->
-<addon id="script.module.jurialmunkey" name="jurialmunkey common" provider-name="jurialmunkey" version="0.1.18">
+<addon id="script.module.jurialmunkey" name="jurialmunkey common" provider-name="jurialmunkey" version="0.2.28">
 	<requires>
 		<import addon="xbmc.python" version="3.0.1"/>
 		<import addon="script.module.requests" version="2.9.1"/>
+		<import addon="script.module.infotagger" version="0.0.5" />
 	</requires>
 	<extension point="xbmc.python.module" library="resources/modules" />
 	<extension point="xbmc.addon.metadata">

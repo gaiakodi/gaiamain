@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.gaia.externals" version="7.1.2" name="Gaia Externals" provider-name="Gaia">
+<addon id="script.gaia.externals" version="8.0.0" name="Gaia Externals" provider-name="Gaia">
 	<requires>
 	</requires>
 	<extension point="xbmc.python.module" library="lib" />

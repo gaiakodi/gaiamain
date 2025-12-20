@@ -1,4 +1,124 @@
 
+[B]8.0.0 (2025.12.20)[/B]
+- Added anime provider category.
+- Exclude providers based on niche.
+- Added custom anime scraping queries.
+- Added Japanese alphabet support.
+- Added Japanese symbol support.
+- Added Japanese number detection.
+- Added Japanese keyword extraction.
+- Added TokyoToshokan anime provider.
+- Improved trailer automation.
+- Improved YouTube API queries.
+- Improved YouTube video filtering.
+- Added YouTube video sorting.
+- Fixed YouTube maximum ID limit.
+- Improved language detection.
+- Improved file pack detection.
+- Added raw stream format detection.
+- Fixed show pack statistics.
+- Improved season number detection.
+- Improved episode number detection.
+- Improved anime number handling.
+- Improved file name cleaning.
+- Improved file name matching.
+- Improved scraping title assembly.
+- Changed filters for exclusions.
+- Fixed French episode number detection.
+- Fixed Spanish episode number detection.
+- Fixed Portuguese episode number detection.
+- Fixed Italian episode number detection.
+- Added fan subtitle support.
+- Added absolute episode number extraction.
+- Added multiple series number extraction.
+- Improved performance of number validation.
+- Added year validation using season dates.
+- Fixed various pack generation mismatches.
+- Improved label formatting for inconsistencies.
+- Improved stream language order.
+- Improved audio channels detection.
+- Reduced bold formatting for Arrivals.
+- Added metadata background process abortion.
+- Revamped the extra video section.
+- Added alternate ending videos.
+- Fixed season trailers.
+- Fixed future release label formatting.
+- Improved metadata cache refreshing.
+- Added metadata cache refreshing for new arrivals.
+- Revamped metadata cache refresh timeouts.
+- Changed set ID structure.
+- Added set info dialog to context menu.
+- Added set videos to context menu.
+- Removed aggregated season people metadata.
+- Improved episode type and status metadata.
+- Improved season type and status metadata.
+- Fixed episode number mapping.
+- Changed IMDb watch parameters.
+- Added Trakt watch parameters.
+- Added Trakt digital releases to Arrivals.
+- Added external release dates to Arrivals.
+- Improved metadata refreshing with external release dates.
+- Fixed negative timestamps on Windows.
+- Fixed scraping provider verification.
+- Added premiere dates for IMDb discovery.
+- Fixed metadata that is only on IMDb.
+- Fixed release country filtering for streams.
+- Fixed stream title ignore expressions.
+- Added label colors for unofficial episodes.
+- Fixed various progress labels.
+- Fixed progress labels for rewatches.
+- Fixed IMDb show releases.
+- Added media type menu details.
+- Added episode type menu details.
+- Revamped studio icon support.
+- Added support for colored studio icons.
+- Improved regular expression caching.
+- Changed launch process.
+- Improved movie progress sorting.
+- Fixed changing the interpreter reuse setting.
+- Improved movie pack detection.
+- Fixed episodes dates with timezones.
+- Added episode date numbers.
+- Added show and season status to packs.
+- Added show and season release to packs.
+- Fixed show cast aggregation.
+- Improved domain removal for language detection.
+- Improved movie studio order.
+- Improved movie collection title cleaning.
+- Improved season and episode image selection.
+- Improved TVDb fanart and keyart selection.
+- Improved TVDb image assembly.
+- Improved Fanart image selection.
+- Improved IMDb episode thumbnails.
+- Added IMDb additional image extraction.
+- Revamped various image processing and selection.
+- Improved context menu metadata refreshing.
+- Fixed show and season auto rating.
+- Fixed TVDb token caching.
+- Improved QR image generation.
+- Improved responsiveness through processing delays.
+- Improved Cloudflare support.
+- Fixed BitLord provider.
+- Fixed CloudTorrents provider.
+- Updated YggTorrent provider.
+- Upgraded MagnetDl provider.
+- Upgraded EXTTorrents provider.
+- Upgraded TorrentsCsv provider.
+- Upgraded TorrentProject provider.
+- Upgraded Zooqle provider.
+- Improved GloTorrents provider.
+- Improved Cloudflare error handling.
+- Improved scraping request and error handling.
+- Added TorrentDatabase provider.
+- Added FileMood provider.
+- Added YggApi provider.
+- Added support for IMDb bulk metadata.
+- Replace imp module with importlib.
+- Added Debrider support via Orion.
+- Improved performance for MetaPack.
+- Fixed provider initialization.
+- Added Trakt image support.
+
 [B]7.1.4 (2025.03.12)[/B]
 - Updated user agents for Cloudflare.
 

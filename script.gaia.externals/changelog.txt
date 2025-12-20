@@ -1,4 +1,12 @@
 
+[B]8.0.0 (2025.12.20)[/B]
+- Major version upgrade.
+- Updated CloudScraper module.
+- Updated JS2PY module.
+- Added PyParsing module.
+- Disabled BeautifulSoup warning.
+- Updated Hachoir module import.
+
 [B]7.1.2 (2025.02.03)[/B]
 - Disabled Urllib3 warning.
 

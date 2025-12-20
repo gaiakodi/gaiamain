@@ -1,4 +1,13 @@
 
+[B]8.0.0 (2025.12.20)[/B]
+- Major version upgrade.
+- Added studio icon names.
+- Updated QR window.
+- Updated dialog window.
+- Added English word list.
+- Added Debrider icons.
+- Updated various icons.
+
 [B]7.1.0 (2025.01.28)[/B]
 - Added TorBox icons.
 - Added EasyDebrid icons.

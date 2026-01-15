@@ -1,4 +1,11 @@
 
+[B]8.0.1 (2026.01.15)[/B]
+- Fixed scraping counters.
+- Improved stream language detection.
+- Changed stream language priority.
+- Fixed AppleTV studio icons.
+- Improved contexct menu for bonus content.
+
 [B]8.0.0 (2025.12.20)[/B]
 - Added anime provider category.
 - Exclude providers based on niche.

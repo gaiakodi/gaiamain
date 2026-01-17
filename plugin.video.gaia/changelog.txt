@@ -1,4 +1,8 @@
 
+[B]8.0.3 (2026.01.17)[/B]
+- Possible fix for resuming playback.
+- Improved movie to show ratio in Arrivals.
+
 [B]8.0.2 (2026.01.16)[/B]
 - Fixed future episodes for packs.
 - Improved pack episode matching.

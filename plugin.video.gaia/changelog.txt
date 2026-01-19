@@ -1,4 +1,9 @@
 
+[B]8.0.4 (2026.01.19)[/B]
+- Improved stream language detection.
+- Improved stream dubbed detection.
+- Improved stream Spanish detection.
+
 [B]8.0.3 (2026.01.17)[/B]
 - Possible fix for resuming playback.
 - Improved movie to show ratio in Arrivals.

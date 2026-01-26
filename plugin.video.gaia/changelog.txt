@@ -1,4 +1,35 @@
 
+[B]8.1.0 (2026.01.26)[/B]
+- Added support for Python 3.12.
+- Fixed debrid imports for Python 3.12 and later.
+- Fixed regex syntax for Python 3.12 and later.
+- Fixed external scrapers for Python 3.12.
+- Converted regex strings into raw strings.
+- Fixed settings not getting saved during launch.
+- Improved automatic audio selection.
+- Improved playback initialization.
+- Possible fix for resuming playback.
+- Possible fix for reconnecting playback.
+- Improved subtitle language labeling.
+- Show loader during external subtitle loading.
+- Fixed handler when debrid services are down.
+- Fixed stream window reloading.
+- Extended debrid request caching.
+- Fixed RealDebrid services menu.
+- Added Browse Set context menu for movies.
+- Changed content menu order.
+- Improved language order for stream labels.
+- Fixed menu labels for unknown specials.
+- Added system aborting to concurrency pool.
+- Added system aborting to startup service.
+- Retry some failed API requests.
+- Fixed partial pack metadata refreshes.
+- Fixed antialiasing for QR image generation.
+- Improved external module import detection.
+- Added support for Windows ARM external modules.
+- Changed media label rating order.
+- Fixed automatic selection in settings dialog.
+
 [B]8.0.4 (2026.01.19)[/B]
 - Improved stream language detection.
 - Improved stream dubbed detection.

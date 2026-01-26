@@ -1,4 +1,12 @@
 
+[B]8.1.0 (2026.01.26)[/B]
+- Added PyPng module.
+- Update Qrcode module.
+- Update Pytz module.
+- Update Ujson for Python 3.12 and later.
+- Update Psutil for Python 3.12 and later.
+- Changed deprecated pkg_resources calls.
+
 [B]8.0.0 (2025.12.20)[/B]
 - Major version upgrade.
 - Updated CloudScraper module.

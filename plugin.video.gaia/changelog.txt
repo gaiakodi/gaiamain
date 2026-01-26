@@ -1,4 +1,13 @@
 
+[B]8.1.1 (2026.01.26)[/B]
+- Possible fix for playback not resuming.
+- Added fallback if html5lib is not installed.
+- Updated subtitle type conversion.
+- Updated audio type conversion.
+- Improved AI subtitle detection.
+- Added AI audio detection.
+- Improved release format AI detection.
+
 [B]8.1.0 (2026.01.26)[/B]
 - Added support for Python 3.12.
 - Fixed debrid imports for Python 3.12 and later.

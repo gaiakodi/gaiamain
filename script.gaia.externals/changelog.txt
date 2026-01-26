@@ -1,4 +1,10 @@
 
+[B]8.1.1 (2026.01.26)[/B]
+- Update Six module.
+- Update BeautifulSoup module.
+- Update SoupSieve module.
+- Added TypingExtensions module.
+
 [B]8.1.0 (2026.01.26)[/B]
 - Added PyPng module.
 - Update Qrcode module.

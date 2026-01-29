@@ -1,4 +1,7 @@
 
+[B]8.1.2 (2026.01.29)[/B]
+- Fixed TypingExtensions for older Python versions.
+
 [B]8.1.1 (2026.01.26)[/B]
 - Update Six module.
 - Update BeautifulSoup module.

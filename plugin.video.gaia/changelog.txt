@@ -1,4 +1,12 @@
 
+[B]8.1.2 (2026.01.29)[/B]
+- Updated Kodi streaming buffer settings.
+- Added notification for a lot of buffering.
+- Changed scraping provider order.
+- Improved automatic subtitle selection.
+- Fixed RealDebrid download continuation.
+- Suppress RealDebrid dialog for possibly cached streams.
+
 [B]8.1.1 (2026.01.26)[/B]
 - Possible fix for playback not resuming.
 - Added fallback if html5lib is not installed.

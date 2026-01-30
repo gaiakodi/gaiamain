@@ -1,4 +1,11 @@
 
+[B]8.1.3 (2026.01.30)[/B]
+- Changed local provider scraping order.
+- Fixed regex replacement for external providers.
+- Improved API preloading data.
+- Updated 3D stream detection.
+- Fixed the promotions menu.
+
 [B]8.1.2 (2026.01.29)[/B]
 - Updated Kodi streaming buffer settings.
 - Added notification for a lot of buffering.

@@ -1,4 +1,18 @@
 
+[B]8.1.4 (2026.01.31)[/B]
+- Fixed launch window status label.
+- Updated language sorting for streams.
+- Improved stream language prioritization.
+- Changed scraping provider order.
+- Improved scraping concurrency locking.
+- Fixed clearing progress notification.
+- Improved global sorting for Arrivals.
+- Fixed manually selecting bonus videos.
+- Improved bonus video sorting.
+- Changed season recap description.
+- Updated selection context menu entry.
+- Improved Disney studio icons.
+
 [B]8.1.3 (2026.01.30)[/B]
 - Changed local provider scraping order.
 - Fixed regex replacement for external providers.

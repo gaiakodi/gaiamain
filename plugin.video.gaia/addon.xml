@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.gaia" version="8.1.4" name="Gaia" provider-name="Gaia">
+<addon id="plugin.video.gaia" version="8.2.0" name="Gaia" provider-name="Gaia">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 
 		<import addon="script.gaia.resources" version="8.0.0" />
-		<import addon="script.gaia.externals" version="8.1.2" />
+		<import addon="script.gaia.externals" version="8.2.0" />
 
 		<import addon="script.gaia.metadata" version="8.0.0" optional="true" />
 		<import addon="script.gaia.binaries" version="8.0.0" optional="true" />
@@ -112,21 +112,21 @@
 		<forum>https://gaiakodi.com/support</forum>
 
 		<assets>
-			<icon>meta/icon.png</icon>
-			<clearlogo>meta/clearlogo.png</clearlogo>
-			<fanart>meta/fanart.jpg</fanart>
-			<banner>meta/banner.jpg</banner>
+			<icon>resources/icon.png</icon>
+			<clearlogo>resources/clearlogo.png</clearlogo>
+			<fanart>resources/fanart.jpg</fanart>
+			<banner>resources/banner.jpg</banner>
 
-			<screenshot>meta/screenshot01.jpg</screenshot>
-			<screenshot>meta/screenshot02.jpg</screenshot>
-			<screenshot>meta/screenshot03.jpg</screenshot>
-			<screenshot>meta/screenshot04.jpg</screenshot>
-			<screenshot>meta/screenshot05.jpg</screenshot>
-			<screenshot>meta/screenshot06.jpg</screenshot>
-			<screenshot>meta/screenshot07.jpg</screenshot>
-			<screenshot>meta/screenshot08.jpg</screenshot>
-			<screenshot>meta/screenshot09.jpg</screenshot>
-			<screenshot>meta/screenshot10.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot01.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot02.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot03.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot04.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot05.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot06.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot07.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot08.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot09.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot10.jpg</screenshot>
 		</assets>
 	</extension>
 </addon>

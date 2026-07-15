@@ -1,4 +1,11 @@
 
+[B]8.2.0 (2026.07.15)[/B]
+- Fixed QR codes for older Python versions.
+- Fixed double rating.
+- Major changes to handling of history, progress, and ratings.
+- Changed default button for IMDb bulkdata updates.
+- Fixed Trakt history API changes.
+
 [B]8.1.4 (2026.01.31)[/B]
 - Fixed launch window status label.
 - Updated language sorting for streams.

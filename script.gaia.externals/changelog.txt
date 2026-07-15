@@ -1,4 +1,7 @@
 
+[B]8.2.0 (2026.07.15)[/B]
+- Fixed QrCode for older Python versions.
+
 [B]8.1.2 (2026.01.29)[/B]
 - Fixed TypingExtensions for older Python versions.
 

@@ -15,10 +15,10 @@
 		<forum>https://gaiakodi.com/support</forum>
 
 		<assets>
-			<icon>resources/icon.png</icon>
-			<clearlogo>resources/clearlogo.png</clearlogo>
-			<fanart>resources/fanart.jpg</fanart>
-			<banner>resources/banner.jpg</banner>
+			<icon>meta/icon.png</icon>
+			<clearlogo>meta/clearlogo.png</clearlogo>
+			<fanart>meta/fanart.jpg</fanart>
+			<banner>meta/banner.jpg</banner>
 		</assets>
 	</extension>
 </addon>

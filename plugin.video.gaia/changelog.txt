@@ -1,4 +1,7 @@
 
+[B]8.2.1 (2026.07.15)[/B]
+- Fixed handler when services are empty.
+
 [B]8.2.0 (2026.07.15)[/B]
 - Fixed QR codes for older Python versions.
 - Fixed double rating.

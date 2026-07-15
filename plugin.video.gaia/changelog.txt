@@ -1,4 +1,7 @@
 
+[B]8.2.2 (2026.07.15)[/B]
+- Fixed handler indentation.
+
 [B]8.2.1 (2026.07.15)[/B]
 - Fixed handler when services are empty.
 
